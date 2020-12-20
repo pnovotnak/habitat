@@ -1,0 +1,1604 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="Seattle_Streets" id="Seattle_Streets">
+	<SimpleField name="OBJECTID" type="int"></SimpleField>
+	<SimpleField name="ARTCLASS" type="int"></SimpleField>
+	<SimpleField name="COMPKEY" type="int"></SimpleField>
+	<SimpleField name="UNITID" type="string"></SimpleField>
+	<SimpleField name="UNITID2" type="string"></SimpleField>
+	<SimpleField name="UNITIDSORT" type="string"></SimpleField>
+	<SimpleField name="UNITDESC" type="string"></SimpleField>
+	<SimpleField name="STNAME_ORD" type="string"></SimpleField>
+	<SimpleField name="XSTRLO" type="string"></SimpleField>
+	<SimpleField name="XSTRHI" type="string"></SimpleField>
+	<SimpleField name="ARTDESCRIPT" type="string"></SimpleField>
+	<SimpleField name="OWNER" type="string"></SimpleField>
+	<SimpleField name="STATUS" type="string"></SimpleField>
+	<SimpleField name="BLOCKNBR" type="int"></SimpleField>
+	<SimpleField name="SPEEDLIMIT" type="int"></SimpleField>
+	<SimpleField name="SEGDIR" type="string"></SimpleField>
+	<SimpleField name="ONEWAY" type="string"></SimpleField>
+	<SimpleField name="ONEWAYDIR" type="string"></SimpleField>
+	<SimpleField name="FLOW" type="string"></SimpleField>
+	<SimpleField name="SEGLENGTH" type="int"></SimpleField>
+	<SimpleField name="SURFACEWIDTH" type="int"></SimpleField>
+	<SimpleField name="SURFACETYPE_1" type="string"></SimpleField>
+	<SimpleField name="SURFACETYPE_2" type="string"></SimpleField>
+	<SimpleField name="INTRLO" type="string"></SimpleField>
+	<SimpleField name="DIRLO" type="string"></SimpleField>
+	<SimpleField name="INTKEYLO" type="int"></SimpleField>
+	<SimpleField name="INTRHI" type="string"></SimpleField>
+	<SimpleField name="DIRHI" type="string"></SimpleField>
+	<SimpleField name="NATIONHWYSYS" type="string"></SimpleField>
+	<SimpleField name="STREETTYPE" type="string"></SimpleField>
+	<SimpleField name="PVMTCONDINDX1" type="int"></SimpleField>
+	<SimpleField name="PVMTCONDINDX2" type="int"></SimpleField>
+	<SimpleField name="TRANCLASS" type="int"></SimpleField>
+	<SimpleField name="TRANDESCRIPT" type="string"></SimpleField>
+	<SimpleField name="SLOPE_PCT" type="int"></SimpleField>
+	<SimpleField name="PVMTCATEGORY" type="string"></SimpleField>
+	<SimpleField name="PARKBOULEVARD" type="string"></SimpleField>
+	<SimpleField name="SHAPE_Length" type="float"></SimpleField>
+</Schema>
+<Folder><name>Seattle_Streets</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Seattle_Streets">
+		<SimpleData name="OBJECTID">2238</SimpleData>
+		<SimpleData name="ARTCLASS">5</SimpleData>
+		<SimpleData name="COMPKEY">489780</SimpleData>
+		<SimpleData name="UNITID">07690</SimpleData>
+		<SimpleData name="UNITID2">0160</SimpleData>
+		<SimpleData name="UNITIDSORT">076900160</SimpleData>
+		<SimpleData name="UNITDESC">MELROSE AV ON RP BETWEEN MELROSE AVE AND OLIVE WY ON RP</SimpleData>
+		<SimpleData name="STNAME_ORD">MELROSE AV ON RP</SimpleData>
+		<SimpleData name="XSTRLO">MELROSE AVE</SimpleData>
+		<SimpleData name="XSTRHI">OLIVE WY ON RP</SimpleData>
+		<SimpleData name="ARTDESCRIPT">Interstate/Freeway</SimpleData>
+		<SimpleData name="OWNER">WSDOT</SimpleData>
+		<SimpleData name="STATUS">INSVC</SimpleData>
+		<SimpleData name="BLOCKNBR">1500</SimpleData>
+		<SimpleData name="SPEEDLIMIT">30</SimpleData>
+		<SimpleData name="SEGDIR">N</SimpleData>
+		<SimpleData name="ONEWAY">Y</SimpleData>
+		<SimpleData name="ONEWAYDIR">N</SimpleData>
+		<SimpleData name="FLOW">F</SimpleData>
+		<SimpleData name="SEGLENGTH">275</SimpleData>
+		<SimpleData name="SURFACEWIDTH">0</SimpleData>
+		<SimpleData name="INTRLO">MELROSE AVE AND OLIVE WAY</SimpleData>
+		<SimpleData name="DIRLO">N</SimpleData>
+		<SimpleData name="INTKEYLO">29847</SimpleData>
+		<SimpleData name="INTRHI">MELROSE AV ON RP AND OLIVE WY ON RP</SimpleData>
+		<SimpleData name="DIRHI">S</SimpleData>
+		<SimpleData name="NATIONHWYSYS">N</SimpleData>
+		<SimpleData name="PVMTCONDINDX1">0</SimpleData>
+		<SimpleData name="PVMTCONDINDX2">0</SimpleData>
+		<SimpleData name="TRANCLASS">0</SimpleData>
+		<SimpleData name="TRANDESCRIPT">NOT DESIGNATED</SimpleData>
+		<SimpleData name="SLOPE_PCT">7</SimpleData>
+		<SimpleData name="PVMTCATEGORY">NONE</SimpleData>
+		<SimpleData name="PARKBOULEVARD">N</SimpleData>
+		<SimpleData name="SHAPE_Length">275.156060660787</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.327880673159,47.6166417097198 -122.328028051788,47.6167865719179 -122.328087471566,47.6168506774335 -122.32811885865,47.6169411048161 -122.328159073318,47.6173501728703</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Seattle_Streets">
+		<SimpleData name="OBJECTID">2251</SimpleData>
+		<SimpleData name="ARTCLASS">5</SimpleData>
+		<SimpleData name="COMPKEY">491533</SimpleData>
+		<SimpleData name="UNITID">07753</SimpleData>
+		<SimpleData name="UNITID2">1662</SimpleData>
+		<SimpleData name="UNITIDSORT">077531662</SimpleData>
+		<SimpleData name="UNITDESC">I5 SB BETWEEN HOWELL ST ON RP AND MERCER ST I5 SB ON RP</SimpleData>
+		<SimpleData name="STNAME_ORD">I5 SB</SimpleData>
+		<SimpleData name="XSTRLO">HOWELL ST ON RP</SimpleData>
+		<SimpleData name="XSTRHI">MERCER ST I5 SB ON RP</SimpleData>
+		<SimpleData name="ARTDESCRIPT">Interstate/Freeway</SimpleData>
+		<SimpleData name="OWNER">WSDOT</SimpleData>
+		<SimpleData name="STATUS">INSVC</SimpleData>
+		<SimpleData name="BLOCKNBR">1662</SimpleData>
+		<SimpleData name="SPEEDLIMIT">60</SimpleData>
+		<SimpleData name="SEGDIR">S</SimpleData>
+		<SimpleData name="ONEWAY">Y</SimpleData>
+		<SimpleData name="ONEWAYDIR">S</SimpleData>
+		<SimpleData name="FLOW">F</SimpleData>
+		<SimpleData name="SEGLENGTH">1595</SimpleData>
+		<SimpleData name="SURFACEWIDTH">0</SimpleData>
+		<SimpleData name="INTRLO">HOWELL ST ON RP AND I5 SB</SimpleData>
+		<SimpleData name="DIRLO">S</SimpleData>
+		<SimpleData name="INTKEYLO">489777</SimpleData>
+		<SimpleData name="INTRHI">I5 SB AND MERCER ST I5 SB ON RP</SimpleData>
+		<SimpleData name="DIRHI">N</SimpleData>
+		<SimpleData name="NATIONHWYSYS">N</SimpleData>
+		<SimpleData name="PVMTCONDINDX1">0</SimpleData>
+		<SimpleData name="PVMTCONDINDX2">0</SimpleData>
+		<SimpleData name="TRANCLASS">0</SimpleData>
+		<SimpleData name="TRANDESCRIPT">NOT DESIGNATED</SimpleData>
+		<SimpleData name="SLOPE_PCT">0</SimpleData>
+		<SimpleData name="PVMTCATEGORY">NONE</SimpleData>
+		<SimpleData name="PARKBOULEVARD">N</SimpleData>
+		<SimpleData name="SHAPE_Length">1595.36291228727</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.328646885888,47.6207415275672 -122.328644124051,47.6203052815594 -122.328641986142,47.6199674461724 -122.328643154907,47.61938112644 -122.328649783283,47.6192046418912 -122.328652970257,47.6191038242075 -122.328663175304,47.6189296647385 -122.328670398858,47.6188553720889 -122.328674269625,47.6187865013353 -122.328684157837,47.6186827484736 -122.328702160799,47.6184993313039 -122.328722594854,47.6183526310422 -122.32879772066,47.6178132913132 -122.32886855672,47.6174539274105 -122.328885749995,47.617368271232 -122.328896102044,47.6173130739336 -122.329156372124,47.6163930303271</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Seattle_Streets">
+		<SimpleData name="OBJECTID">2252</SimpleData>
+		<SimpleData name="ARTCLASS">5</SimpleData>
+		<SimpleData name="COMPKEY">491592</SimpleData>
+		<SimpleData name="UNITID">07697</SimpleData>
+		<SimpleData name="UNITID2">1665</SimpleData>
+		<SimpleData name="UNITIDSORT">076971665</SimpleData>
+		<SimpleData name="UNITDESC">I5 NB BETWEEN OLIVE WY ON RP AND MERCER ST I5 NB ON RP</SimpleData>
+		<SimpleData name="STNAME_ORD">I5 NB</SimpleData>
+		<SimpleData name="XSTRLO">OLIVE WY ON RP</SimpleData>
+		<SimpleData name="XSTRHI">MERCER ST I5 NB ON RP</SimpleData>
+		<SimpleData name="ARTDESCRIPT">Interstate/Freeway</SimpleData>
+		<SimpleData name="OWNER">WSDOT</SimpleData>
+		<SimpleData name="STATUS">INSVC</SimpleData>
+		<SimpleData name="BLOCKNBR">1665</SimpleData>
+		<SimpleData name="SPEEDLIMIT">60</SimpleData>
+		<SimpleData name="SEGDIR">N</SimpleData>
+		<SimpleData name="ONEWAY">Y</SimpleData>
+		<SimpleData name="ONEWAYDIR">N</SimpleData>
+		<SimpleData name="FLOW">F</SimpleData>
+		<SimpleData name="SEGLENGTH">3458</SimpleData>
+		<SimpleData name="SURFACEWIDTH">0</SimpleData>
+		<SimpleData name="INTRLO">I5 NB AND OLIVE WY ON RP</SimpleData>
+		<SimpleData name="DIRLO">N</SimpleData>
+		<SimpleData name="INTKEYLO">489744</SimpleData>
+		<SimpleData name="INTRHI">I5 NB AND MERCER ST I5 NB ON RP</SimpleData>
+		<SimpleData name="DIRHI">S</SimpleData>
+		<SimpleData name="NATIONHWYSYS">N</SimpleData>
+		<SimpleData name="PVMTCONDINDX1">0</SimpleData>
+		<SimpleData name="PVMTCONDINDX2">0</SimpleData>
+		<SimpleData name="TRANCLASS">0</SimpleData>
+		<SimpleData name="TRANDESCRIPT">NOT DESIGNATED</SimpleData>
+		<SimpleData name="SLOPE_PCT">1</SimpleData>
+		<SimpleData name="PVMTCATEGORY">NONE</SimpleData>
+		<SimpleData name="PARKBOULEVARD">N</SimpleData>
+		<SimpleData name="SHAPE_Length">3458.37276782361</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.328213134779,47.6201844002917 -122.328095788134,47.6251200959688 -122.328125776015,47.6262001816221 -122.328109666647,47.6266416151722 -122.328084729405,47.6270999267628 -122.327989791734,47.6274802127013 -122.327794547633,47.6280343033945 -122.327603196384,47.6283489987771 -122.327336418767,47.628792989119 -122.327085179909,47.6290688058688 -122.326870454231,47.6292792570252 -122.326694024397,47.6294521118573</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Seattle_Streets">
+		<SimpleData name="OBJECTID">2253</SimpleData>
+		<SimpleData name="ARTCLASS">5</SimpleData>
+		<SimpleData name="COMPKEY">491648</SimpleData>
+		<SimpleData name="UNITID">07696</SimpleData>
+		<SimpleData name="UNITID2">0110</SimpleData>
+		<SimpleData name="UNITIDSORT">076960110</SimpleData>
+		<SimpleData name="UNITDESC">MERCER ST I5 NB ON RP BETWEEN MERCER ST ON RP AND MERCER ST I5 EXPRESS RP</SimpleData>
+		<SimpleData name="STNAME_ORD">MERCER ST I5 NB ON RP</SimpleData>
+		<SimpleData name="XSTRLO">MERCER ST ON RP</SimpleData>
+		<SimpleData name="XSTRHI">MERCER ST I5 EXPRESS RP</SimpleData>
+		<SimpleData name="ARTDESCRIPT">Interstate/Freeway</SimpleData>
+		<SimpleData name="OWNER">WSDOT</SimpleData>
+		<SimpleData name="STATUS">INSVC</SimpleData>
+		<SimpleData name="BLOCKNBR">1100</SimpleData>
+		<SimpleData name="SPEEDLIMIT">30</SimpleData>
+		<SimpleData name="SEGDIR">NE</SimpleData>
+		<SimpleData name="ONEWAY">Y</SimpleData>
+		<SimpleData name="ONEWAYDIR">NE</SimpleData>
+		<SimpleData name="FLOW">F</SimpleData>
+		<SimpleData name="SEGLENGTH">1527</SimpleData>
+		<SimpleData name="SURFACEWIDTH">0</SimpleData>
+		<SimpleData name="INTRLO">MERCER ST I5 NB ON RP AND MERCER ST ON RP</SimpleData>
+		<SimpleData name="DIRLO">NE</SimpleData>
+		<SimpleData name="INTKEYLO">491587</SimpleData>
+		<SimpleData name="INTRHI">MERCER ST I5 EXPRESS RP AND MERCER ST I5 NB ON RP</SimpleData>
+		<SimpleData name="DIRHI">SW</SimpleData>
+		<SimpleData name="NATIONHWYSYS">N</SimpleData>
+		<SimpleData name="PVMTCONDINDX1">0</SimpleData>
+		<SimpleData name="PVMTCONDINDX2">0</SimpleData>
+		<SimpleData name="TRANCLASS">0</SimpleData>
+		<SimpleData name="TRANDESCRIPT">NOT DESIGNATED</SimpleData>
+		<SimpleData name="SLOPE_PCT">4</SimpleData>
+		<SimpleData name="PVMTCATEGORY">NONE</SimpleData>
+		<SimpleData name="PARKBOULEVARD">N</SimpleData>
+		<SimpleData name="SHAPE_Length">1526.85942480962</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.333319429688,47.6246550758481 -122.332951964888,47.6247446322865 -122.332475439114,47.6248550437868 -122.331021322602,47.6252283039025 -122.330769656389,47.6252760925305 -122.33057859882,47.6253196613116 -122.330387934646,47.6253769104135 -122.330242701761,47.6254301403867 -122.330106586113,47.625489835306 -122.329867906012,47.6255958717736 -122.329604011841,47.6257464584167 -122.329296664728,47.6259367671842 -122.329193810263,47.6260125894023 -122.329105485003,47.6260777012888 -122.329000827717,47.6261548522991 -122.328787453183,47.6263184866604 -122.328679098645,47.6264302857571 -122.328612813092,47.6264986801116 -122.328489936504,47.6266508360999 -122.328442045842,47.6267101384848 -122.328379140172,47.6268805100486</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Seattle_Streets">
+		<SimpleData name="OBJECTID">4946</SimpleData>
+		<SimpleData name="ARTCLASS">5</SimpleData>
+		<SimpleData name="COMPKEY">489779</SimpleData>
+		<SimpleData name="UNITID">07730</SimpleData>
+		<SimpleData name="UNITID2">0170</SimpleData>
+		<SimpleData name="UNITIDSORT">077300170</SimpleData>
+		<SimpleData name="UNITDESC">OLIVE WY ON RP BETWEEN MELROSE AV ON RP AND I5 NB</SimpleData>
+		<SimpleData name="STNAME_ORD">OLIVE WY ON RP</SimpleData>
+		<SimpleData name="XSTRLO">MELROSE AV ON RP</SimpleData>
+		<SimpleData name="XSTRHI">I5 NB</SimpleData>
+		<SimpleData name="ARTDESCRIPT">Interstate/Freeway</SimpleData>
+		<SimpleData name="OWNER">WSDOT</SimpleData>
+		<SimpleData name="STATUS">INSVC</SimpleData>
+		<SimpleData name="BLOCKNBR">1700</SimpleData>
+		<SimpleData name="SPEEDLIMIT">30</SimpleData>
+		<SimpleData name="SEGDIR">N</SimpleData>
+		<SimpleData name="ONEWAY">Y</SimpleData>
+		<SimpleData name="ONEWAYDIR">N</SimpleData>
+		<SimpleData name="FLOW">F</SimpleData>
+		<SimpleData name="SEGLENGTH">1038</SimpleData>
+		<SimpleData name="SURFACEWIDTH">0</SimpleData>
+		<SimpleData name="INTRLO">MELROSE AV ON RP AND OLIVE WY ON RP</SimpleData>
+		<SimpleData name="DIRLO">N</SimpleData>
+		<SimpleData name="INTKEYLO">489776</SimpleData>
+		<SimpleData name="INTRHI">I5 NB AND OLIVE WY ON RP</SimpleData>
+		<SimpleData name="DIRHI">S</SimpleData>
+		<SimpleData name="NATIONHWYSYS">N</SimpleData>
+		<SimpleData name="PVMTCONDINDX1">0</SimpleData>
+		<SimpleData name="PVMTCONDINDX2">0</SimpleData>
+		<SimpleData name="TRANCLASS">0</SimpleData>
+		<SimpleData name="TRANDESCRIPT">NOT DESIGNATED</SimpleData>
+		<SimpleData name="SLOPE_PCT">1</SimpleData>
+		<SimpleData name="PVMTCATEGORY">NONE</SimpleData>
+		<SimpleData name="PARKBOULEVARD">N</SimpleData>
+		<SimpleData name="SHAPE_Length">1037.6839734341</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.328159073318,47.6173501728703 -122.328079667245,47.6184974315647 -122.328084681791,47.6197840558064 -122.328213134779,47.6201844002917</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Seattle_Streets">
+		<SimpleData name="OBJECTID">4959</SimpleData>
+		<SimpleData name="ARTCLASS">5</SimpleData>
+		<SimpleData name="COMPKEY">491523</SimpleData>
+		<SimpleData name="UNITID">07697</SimpleData>
+		<SimpleData name="UNITID2">1659</SimpleData>
+		<SimpleData name="UNITIDSORT">076971659</SimpleData>
+		<SimpleData name="UNITDESC">I5 NB BETWEEN OLIVE WY OFF RP AND UNIVERSITY ST ON RP</SimpleData>
+		<SimpleData name="STNAME_ORD">I5 NB</SimpleData>
+		<SimpleData name="XSTRLO">OLIVE WY OFF RP</SimpleData>
+		<SimpleData name="XSTRHI">UNIVERSITY ST ON RP</SimpleData>
+		<SimpleData name="ARTDESCRIPT">Interstate/Freeway</SimpleData>
+		<SimpleData name="OWNER">WSDOT</SimpleData>
+		<SimpleData name="STATUS">INSVC</SimpleData>
+		<SimpleData name="BLOCKNBR">1659</SimpleData>
+		<SimpleData name="SPEEDLIMIT">60</SimpleData>
+		<SimpleData name="SEGDIR">N</SimpleData>
+		<SimpleData name="ONEWAY">Y</SimpleData>
+		<SimpleData name="ONEWAYDIR">N</SimpleData>
+		<SimpleData name="FLOW">F</SimpleData>
+		<SimpleData name="SEGLENGTH">81</SimpleData>
+		<SimpleData name="SURFACEWIDTH">0</SimpleData>
+		<SimpleData name="INTRLO">I5 NB AND OLIVE WY OFF RP</SimpleData>
+		<SimpleData name="DIRLO">N</SimpleData>
+		<SimpleData name="INTKEYLO">489794</SimpleData>
+		<SimpleData name="INTRHI">I5 NB AND UNIVERSITY ST ON RP</SimpleData>
+		<SimpleData name="DIRHI">S</SimpleData>
+		<SimpleData name="NATIONHWYSYS">N</SimpleData>
+		<SimpleData name="PVMTCONDINDX1">0</SimpleData>
+		<SimpleData name="PVMTCONDINDX2">0</SimpleData>
+		<SimpleData name="TRANCLASS">0</SimpleData>
+		<SimpleData name="TRANDESCRIPT">NOT DESIGNATED</SimpleData>
+		<SimpleData name="SLOPE_PCT">5</SimpleData>
+		<SimpleData name="PVMTCATEGORY">NONE</SimpleData>
+		<SimpleData name="PARKBOULEVARD">N</SimpleData>
+		<SimpleData name="SHAPE_Length">80.6987786221485</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.329939409961,47.6134815968056 -122.329852729009,47.6136949260821</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Seattle_Streets">
+		<SimpleData name="OBJECTID">4960</SimpleData>
+		<SimpleData name="ARTCLASS">5</SimpleData>
+		<SimpleData name="COMPKEY">491651</SimpleData>
+		<SimpleData name="UNITID">07691</SimpleData>
+		<SimpleData name="UNITID2">0140</SimpleData>
+		<SimpleData name="UNITIDSORT">076910140</SimpleData>
+		<SimpleData name="UNITDESC">MERCER ST I5 EXPRESS RP BETWEEN MERCER ST I5 NB ON RP AND I5 EXPRESS</SimpleData>
+		<SimpleData name="STNAME_ORD">MERCER ST I5 EXPRESS RP</SimpleData>
+		<SimpleData name="XSTRLO">MERCER ST I5 NB ON RP</SimpleData>
+		<SimpleData name="XSTRHI">I5 EXPRESS</SimpleData>
+		<SimpleData name="ARTDESCRIPT">Interstate/Freeway</SimpleData>
+		<SimpleData name="OWNER">WSDOT</SimpleData>
+		<SimpleData name="STATUS">INSVC</SimpleData>
+		<SimpleData name="BLOCKNBR">1400</SimpleData>
+		<SimpleData name="SPEEDLIMIT">30</SimpleData>
+		<SimpleData name="SEGDIR">NE</SimpleData>
+		<SimpleData name="ONEWAY">Y</SimpleData>
+		<SimpleData name="ONEWAYDIR">NE</SimpleData>
+		<SimpleData name="FLOW">F</SimpleData>
+		<SimpleData name="SEGLENGTH">1339</SimpleData>
+		<SimpleData name="SURFACEWIDTH">0</SimpleData>
+		<SimpleData name="INTRLO">MERCER ST I5 EXPRESS RP AND MERCER ST I5 NB ON RP</SimpleData>
+		<SimpleData name="DIRLO">NE</SimpleData>
+		<SimpleData name="INTKEYLO">491586</SimpleData>
+		<SimpleData name="INTRHI">I5 EXPRESS AND MERCER ST I5 EXPRESS RP</SimpleData>
+		<SimpleData name="DIRHI">SW</SimpleData>
+		<SimpleData name="NATIONHWYSYS">N</SimpleData>
+		<SimpleData name="PVMTCONDINDX1">0</SimpleData>
+		<SimpleData name="PVMTCONDINDX2">0</SimpleData>
+		<SimpleData name="TRANCLASS">0</SimpleData>
+		<SimpleData name="TRANDESCRIPT">NOT DESIGNATED</SimpleData>
+		<SimpleData name="SLOPE_PCT">0</SimpleData>
+		<SimpleData name="PVMTCATEGORY">NONE</SimpleData>
+		<SimpleData name="PARKBOULEVARD">N</SimpleData>
+		<SimpleData name="SHAPE_Length">1339.47882084146</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.328379140172,47.6268805100486 -122.32831345451,47.6274436429984 -122.32827428068,47.6276558438637 -122.328196711836,47.6278684257617 -122.32809923169,47.6280701453931 -122.327998818363,47.6282485018977 -122.327902428451,47.6284197139913 -122.327792760539,47.6286024138824 -122.327546837522,47.6289570177632 -122.326381372465,47.6302328042934</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Seattle_Streets">
+		<SimpleData name="OBJECTID">4961</SimpleData>
+		<SimpleData name="ARTCLASS">5</SimpleData>
+		<SimpleData name="COMPKEY">491681</SimpleData>
+		<SimpleData name="UNITID">07697</SimpleData>
+		<SimpleData name="UNITID2">1675</SimpleData>
+		<SimpleData name="UNITIDSORT">076971675</SimpleData>
+		<SimpleData name="UNITDESC">I5 NB BETWEEN LAKEVIEW BV OFF RP AND I5 NB SR520 EB ON RP</SimpleData>
+		<SimpleData name="STNAME_ORD">I5 NB</SimpleData>
+		<SimpleData name="XSTRLO">LAKEVIEW BV OFF RP</SimpleData>
+		<SimpleData name="XSTRHI">I5 NB SR520 EB ON RP</SimpleData>
+		<SimpleData name="ARTDESCRIPT">Interstate/Freeway</SimpleData>
+		<SimpleData name="OWNER">WSDOT</SimpleData>
+		<SimpleData name="STATUS">INSVC</SimpleData>
+		<SimpleData name="BLOCKNBR">1675</SimpleData>
+		<SimpleData name="SPEEDLIMIT">60</SimpleData>
+		<SimpleData name="SEGDIR">N</SimpleData>
+		<SimpleData name="ONEWAY">Y</SimpleData>
+		<SimpleData name="ONEWAYDIR">N</SimpleData>
+		<SimpleData name="FLOW">F</SimpleData>
+		<SimpleData name="SEGLENGTH">2323</SimpleData>
+		<SimpleData name="SURFACEWIDTH">0</SimpleData>
+		<SimpleData name="INTRLO">I5 NB AND LAKEVIEW BV OFF RP</SimpleData>
+		<SimpleData name="DIRLO">N</SimpleData>
+		<SimpleData name="INTKEYLO">491679</SimpleData>
+		<SimpleData name="INTRHI">I5 NB AND I5 NB SR520 EB ON RP</SimpleData>
+		<SimpleData name="DIRHI">S</SimpleData>
+		<SimpleData name="NATIONHWYSYS">N</SimpleData>
+		<SimpleData name="PVMTCONDINDX1">0</SimpleData>
+		<SimpleData name="PVMTCONDINDX2">0</SimpleData>
+		<SimpleData name="TRANCLASS">0</SimpleData>
+		<SimpleData name="TRANDESCRIPT">NOT DESIGNATED</SimpleData>
+		<SimpleData name="SLOPE_PCT">5</SimpleData>
+		<SimpleData name="PVMTCATEGORY">NONE</SimpleData>
+		<SimpleData name="PARKBOULEVARD">N</SimpleData>
+		<SimpleData name="SHAPE_Length">2322.98348439964</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.324055305346,47.6322578394313 -122.323426901223,47.6337171326506 -122.323158162188,47.6343889701643 -122.322963956877,47.6349819691906 -122.322842985306,47.6354507276909 -122.322694773126,47.6361524659037 -122.322606323229,47.63851228084</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Seattle_Streets">
+		<SimpleData name="OBJECTID">8387</SimpleData>
+		<SimpleData name="ARTCLASS">5</SimpleData>
+		<SimpleData name="COMPKEY">489773</SimpleData>
+		<SimpleData name="UNITID">07570</SimpleData>
+		<SimpleData name="UNITID2">0020</SimpleData>
+		<SimpleData name="UNITIDSORT">075700020</SimpleData>
+		<SimpleData name="UNITDESC">I5 EXPRESS SB OFF RP BETWEEN I5 EXPRESS AND STEWART ST</SimpleData>
+		<SimpleData name="STNAME_ORD">I5 EXPRESS SB OFF RP</SimpleData>
+		<SimpleData name="XSTRLO">I5 EXPRESS</SimpleData>
+		<SimpleData name="XSTRHI">STEWART ST</SimpleData>
+		<SimpleData name="ARTDESCRIPT">Interstate/Freeway</SimpleData>
+		<SimpleData name="OWNER">WSDOT</SimpleData>
+		<SimpleData name="STATUS">INSVC</SimpleData>
+		<SimpleData name="BLOCKNBR">200</SimpleData>
+		<SimpleData name="SPEEDLIMIT">30</SimpleData>
+		<SimpleData name="SEGDIR">SW</SimpleData>
+		<SimpleData name="ONEWAY">Y</SimpleData>
+		<SimpleData name="ONEWAYDIR">SW</SimpleData>
+		<SimpleData name="FLOW">F</SimpleData>
+		<SimpleData name="SEGLENGTH">578</SimpleData>
+		<SimpleData name="SURFACEWIDTH">0</SimpleData>
+		<SimpleData name="INTRLO">I5 EXPRESS AND I5 EXPRESS NB ON RP</SimpleData>
+		<SimpleData name="DIRLO">SW</SimpleData>
+		<SimpleData name="INTKEYLO">489742</SimpleData>
+		<SimpleData name="INTRHI">EASTLAKE AVE E AND STEWART ST</SimpleData>
+		<SimpleData name="DIRHI">NE</SimpleData>
+		<SimpleData name="NATIONHWYSYS">N</SimpleData>
+		<SimpleData name="PVMTCONDINDX1">0</SimpleData>
+		<SimpleData name="PVMTCONDINDX2">0</SimpleData>
+		<SimpleData name="TRANCLASS">0</SimpleData>
+		<SimpleData name="TRANDESCRIPT">NOT DESIGNATED</SimpleData>
+		<SimpleData name="SLOPE_PCT">0</SimpleData>
+		<SimpleData name="PVMTCATEGORY">NONE</SimpleData>
+		<SimpleData name="PARKBOULEVARD">N</SimpleData>
+		<SimpleData name="SHAPE_Length">578.493271664432</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.328493234978,47.6212103250556 -122.32883350097,47.6200633575109 -122.328882266081,47.6199392114526 -122.328923260917,47.6198634961204 -122.32898834488,47.619805490721 -122.329135058904,47.6197150510663</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Seattle_Streets">
+		<SimpleData name="OBJECTID">8388</SimpleData>
+		<SimpleData name="ARTCLASS">5</SimpleData>
+		<SimpleData name="COMPKEY">489781</SimpleData>
+		<SimpleData name="UNITID">07820</SimpleData>
+		<SimpleData name="UNITID2">0170</SimpleData>
+		<SimpleData name="UNITIDSORT">078200170</SimpleData>
+		<SimpleData name="UNITDESC">HOWELL ST ON RP BETWEEN HOWELL ST AND I5 SB</SimpleData>
+		<SimpleData name="STNAME_ORD">HOWELL ST ON RP</SimpleData>
+		<SimpleData name="XSTRLO">HOWELL ST</SimpleData>
+		<SimpleData name="XSTRHI">I5 SB</SimpleData>
+		<SimpleData name="ARTDESCRIPT">Interstate/Freeway</SimpleData>
+		<SimpleData name="OWNER">WSDOT</SimpleData>
+		<SimpleData name="STATUS">INSVC</SimpleData>
+		<SimpleData name="BLOCKNBR">1500</SimpleData>
+		<SimpleData name="SPEEDLIMIT">30</SimpleData>
+		<SimpleData name="SEGDIR">S</SimpleData>
+		<SimpleData name="ONEWAY">Y</SimpleData>
+		<SimpleData name="ONEWAYDIR">S</SimpleData>
+		<SimpleData name="FLOW">F</SimpleData>
+		<SimpleData name="SEGLENGTH">449</SimpleData>
+		<SimpleData name="SURFACEWIDTH">0</SimpleData>
+		<SimpleData name="INTRLO">HOWELL ST AND YALE AVE</SimpleData>
+		<SimpleData name="DIRLO">S</SimpleData>
+		<SimpleData name="INTKEYLO">29174</SimpleData>
+		<SimpleData name="INTRHI">HOWELL ST ON RP AND I5 SB</SimpleData>
+		<SimpleData name="DIRHI">N</SimpleData>
+		<SimpleData name="NATIONHWYSYS">N</SimpleData>
+		<SimpleData name="PVMTCONDINDX1">0</SimpleData>
+		<SimpleData name="PVMTCONDINDX2">0</SimpleData>
+		<SimpleData name="TRANCLASS">0</SimpleData>
+		<SimpleData name="TRANDESCRIPT">NOT DESIGNATED</SimpleData>
+		<SimpleData name="SLOPE_PCT">1</SimpleData>
+		<SimpleData name="PVMTCATEGORY">NONE</SimpleData>
+		<SimpleData name="PARKBOULEVARD">N</SimpleData>
+		<SimpleData name="SHAPE_Length">448.622374807482</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.329698789076,47.6175046181112 -122.329410342803,47.61733758681 -122.329289338442,47.6171892068092 -122.329219939316,47.6170085765897 -122.329156372124,47.6163930303271</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Seattle_Streets">
+		<SimpleData name="OBJECTID">8403</SimpleData>
+		<SimpleData name="ARTCLASS">5</SimpleData>
+		<SimpleData name="COMPKEY">491519</SimpleData>
+		<SimpleData name="UNITID">07697</SimpleData>
+		<SimpleData name="UNITID2">1658</SimpleData>
+		<SimpleData name="UNITIDSORT">076971658</SimpleData>
+		<SimpleData name="UNITDESC">I5 NB BETWEEN CHERRY ST ON RP AND OLIVE WY OFF RP</SimpleData>
+		<SimpleData name="STNAME_ORD">I5 NB</SimpleData>
+		<SimpleData name="XSTRLO">CHERRY ST ON RP</SimpleData>
+		<SimpleData name="XSTRHI">OLIVE WY OFF RP</SimpleData>
+		<SimpleData name="ARTDESCRIPT">Interstate/Freeway</SimpleData>
+		<SimpleData name="OWNER">WSDOT</SimpleData>
+		<SimpleData name="STATUS">INSVC</SimpleData>
+		<SimpleData name="BLOCKNBR">1658</SimpleData>
+		<SimpleData name="SPEEDLIMIT">60</SimpleData>
+		<SimpleData name="SEGDIR">N</SimpleData>
+		<SimpleData name="ONEWAY">Y</SimpleData>
+		<SimpleData name="ONEWAYDIR">N</SimpleData>
+		<SimpleData name="FLOW">F</SimpleData>
+		<SimpleData name="SEGLENGTH">1767</SimpleData>
+		<SimpleData name="SURFACEWIDTH">0</SimpleData>
+		<SimpleData name="INTRLO">CHERRY ST ON RP AND I5 NB</SimpleData>
+		<SimpleData name="DIRLO">N</SimpleData>
+		<SimpleData name="INTKEYLO">490014</SimpleData>
+		<SimpleData name="INTRHI">I5 NB AND OLIVE WY OFF RP</SimpleData>
+		<SimpleData name="DIRHI">S</SimpleData>
+		<SimpleData name="NATIONHWYSYS">N</SimpleData>
+		<SimpleData name="PVMTCONDINDX1">0</SimpleData>
+		<SimpleData name="PVMTCONDINDX2">0</SimpleData>
+		<SimpleData name="TRANCLASS">0</SimpleData>
+		<SimpleData name="TRANDESCRIPT">NOT DESIGNATED</SimpleData>
+		<SimpleData name="SLOPE_PCT">3</SimpleData>
+		<SimpleData name="PVMTCATEGORY">NONE</SimpleData>
+		<SimpleData name="PARKBOULEVARD">N</SimpleData>
+		<SimpleData name="SHAPE_Length">1766.63423584871</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.330754357227,47.6087496724716 -122.33083927136,47.6089320208783 -122.330954752002,47.6092481795264 -122.33103492767,47.609586518087 -122.331052810986,47.6099018606402 -122.3310420597,47.6101401731382 -122.331030280405,47.6103427732004 -122.330959433434,47.6106882543191 -122.330882601164,47.6109563787693 -122.330807641841,47.6111733493901 -122.33053346133,47.6118456505999 -122.330157065503,47.6129459164792 -122.329939409961,47.6134815968056</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Seattle_Streets">
+		<SimpleData name="OBJECTID">8404</SimpleData>
+		<SimpleData name="ARTCLASS">5</SimpleData>
+		<SimpleData name="COMPKEY">491531</SimpleData>
+		<SimpleData name="UNITID">07753</SimpleData>
+		<SimpleData name="UNITID2">1658</SimpleData>
+		<SimpleData name="UNITIDSORT">077531658</SimpleData>
+		<SimpleData name="UNITDESC">I5 SB BETWEEN UNION ST OFF RP AND HOWELL ST ON RP</SimpleData>
+		<SimpleData name="STNAME_ORD">I5 SB</SimpleData>
+		<SimpleData name="XSTRLO">UNION ST OFF RP</SimpleData>
+		<SimpleData name="XSTRHI">HOWELL ST ON RP</SimpleData>
+		<SimpleData name="ARTDESCRIPT">Interstate/Freeway</SimpleData>
+		<SimpleData name="OWNER">WSDOT</SimpleData>
+		<SimpleData name="STATUS">INSVC</SimpleData>
+		<SimpleData name="BLOCKNBR">1658</SimpleData>
+		<SimpleData name="SPEEDLIMIT">60</SimpleData>
+		<SimpleData name="SEGDIR">S</SimpleData>
+		<SimpleData name="ONEWAY">Y</SimpleData>
+		<SimpleData name="ONEWAYDIR">S</SimpleData>
+		<SimpleData name="FLOW">F</SimpleData>
+		<SimpleData name="SEGLENGTH">1823</SimpleData>
+		<SimpleData name="SURFACEWIDTH">0</SimpleData>
+		<SimpleData name="INTRLO">I5 SB AND UNION ST OFF RP</SimpleData>
+		<SimpleData name="DIRLO">S</SimpleData>
+		<SimpleData name="INTKEYLO">489862</SimpleData>
+		<SimpleData name="INTRHI">HOWELL ST ON RP AND I5 SB</SimpleData>
+		<SimpleData name="DIRHI">N</SimpleData>
+		<SimpleData name="NATIONHWYSYS">N</SimpleData>
+		<SimpleData name="PVMTCONDINDX1">0</SimpleData>
+		<SimpleData name="PVMTCONDINDX2">0</SimpleData>
+		<SimpleData name="TRANCLASS">0</SimpleData>
+		<SimpleData name="TRANDESCRIPT">NOT DESIGNATED</SimpleData>
+		<SimpleData name="SLOPE_PCT">2</SimpleData>
+		<SimpleData name="PVMTCATEGORY">NONE</SimpleData>
+		<SimpleData name="PARKBOULEVARD">N</SimpleData>
+		<SimpleData name="SHAPE_Length">1823.32321581099</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.329156372124,47.6163930303271 -122.329247884686,47.6160695288172 -122.329400387736,47.6156740557156 -122.329693544615,47.6147625608136 -122.329754122259,47.6145682381577 -122.329919196584,47.6141358328546 -122.330211940871,47.6135374599814 -122.330606098333,47.612757188078 -122.331101912654,47.6115760674303</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Seattle_Streets">
+		<SimpleData name="OBJECTID">8405</SimpleData>
+		<SimpleData name="ARTCLASS">5</SimpleData>
+		<SimpleData name="COMPKEY">491541</SimpleData>
+		<SimpleData name="UNITID">07423</SimpleData>
+		<SimpleData name="UNITID2">1655</SimpleData>
+		<SimpleData name="UNITIDSORT">074231655</SimpleData>
+		<SimpleData name="UNITDESC">I5 EXPRESS BETWEEN 5TH AV EXPRESS RP AND I5 EXPR PIKE AND 9TH RP</SimpleData>
+		<SimpleData name="STNAME_ORD">I5 EXPRESS</SimpleData>
+		<SimpleData name="XSTRLO">5TH AV EXPRESS RP</SimpleData>
+		<SimpleData name="XSTRHI">I5 EXPR PIKE AND 9TH RP</SimpleData>
+		<SimpleData name="ARTDESCRIPT">Interstate/Freeway</SimpleData>
+		<SimpleData name="OWNER">WSDOT</SimpleData>
+		<SimpleData name="STATUS">INSVC</SimpleData>
+		<SimpleData name="BLOCKNBR">1655</SimpleData>
+		<SimpleData name="SPEEDLIMIT">60</SimpleData>
+		<SimpleData name="SEGDIR">N</SimpleData>
+		<SimpleData name="ONEWAY">N</SimpleData>
+		<SimpleData name="ONEWAYDIR"></SimpleData>
+		<SimpleData name="FLOW"></SimpleData>
+		<SimpleData name="SEGLENGTH">4921</SimpleData>
+		<SimpleData name="SURFACEWIDTH">0</SimpleData>
+		<SimpleData name="INTRLO">5TH AV EXPRESS RP AND I5 EXPRESS</SimpleData>
+		<SimpleData name="DIRLO">N</SimpleData>
+		<SimpleData name="INTKEYLO">490043</SimpleData>
+		<SimpleData name="INTRHI">I5 EXPRESS AND I5 EXPR PIKE AND 9TH RP</SimpleData>
+		<SimpleData name="DIRHI">S</SimpleData>
+		<SimpleData name="NATIONHWYSYS">N</SimpleData>
+		<SimpleData name="PVMTCONDINDX1">0</SimpleData>
+		<SimpleData name="PVMTCONDINDX2">0</SimpleData>
+		<SimpleData name="TRANCLASS">0</SimpleData>
+		<SimpleData name="TRANDESCRIPT">NOT DESIGNATED</SimpleData>
+		<SimpleData name="SLOPE_PCT">2</SimpleData>
+		<SimpleData name="PVMTCATEGORY">NONE</SimpleData>
+		<SimpleData name="PARKBOULEVARD">N</SimpleData>
+		<SimpleData name="SHAPE_Length">4921.1288209307</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.329278982711,47.6064393487131 -122.329388635259,47.6065752437498 -122.329967194574,47.6073187027084 -122.330536683753,47.608067115272 -122.330793736983,47.6084127622913 -122.330903558571,47.6086219096939 -122.331007176857,47.6088596822196 -122.331103512016,47.609157458998 -122.331143487237,47.609344126633 -122.331178145526,47.6095464636033 -122.331185125696,47.6097416683957 -122.331193519369,47.6100805434006 -122.331096919766,47.6108467619392 -122.330310815722,47.6130297541788 -122.329733765819,47.6143606902585 -122.329689510797,47.6145126580477 -122.329407911338,47.6152574036661 -122.329294245345,47.6155580083969 -122.329052742283,47.6161511998066 -122.328823184729,47.6169894548827 -122.328644205555,47.6176684594362 -122.328481999205,47.6184986596054 -122.328485873849,47.6194337364909</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Seattle_Streets">
+		<SimpleData name="OBJECTID">8406</SimpleData>
+		<SimpleData name="ARTCLASS">5</SimpleData>
+		<SimpleData name="COMPKEY">491590</SimpleData>
+		<SimpleData name="UNITID">07423</SimpleData>
+		<SimpleData name="UNITID2">1666</SimpleData>
+		<SimpleData name="UNITIDSORT">074231666</SimpleData>
+		<SimpleData name="UNITDESC">I5 EXPRESS BETWEEN I5 EXPRESS SB OFF RP AND MERCER ST I5 EXPRESS RP</SimpleData>
+		<SimpleData name="STNAME_ORD">I5 EXPRESS</SimpleData>
+		<SimpleData name="XSTRLO">I5 EXPRESS SB OFF RP</SimpleData>
+		<SimpleData name="XSTRHI">MERCER ST I5 EXPRESS RP</SimpleData>
+		<SimpleData name="ARTDESCRIPT">Interstate/Freeway</SimpleData>
+		<SimpleData name="OWNER">WSDOT</SimpleData>
+		<SimpleData name="STATUS">INSVC</SimpleData>
+		<SimpleData name="BLOCKNBR">1666</SimpleData>
+		<SimpleData name="SPEEDLIMIT">60</SimpleData>
+		<SimpleData name="SEGDIR">N</SimpleData>
+		<SimpleData name="ONEWAY">N</SimpleData>
+		<SimpleData name="ONEWAYDIR"></SimpleData>
+		<SimpleData name="FLOW"></SimpleData>
+		<SimpleData name="SEGLENGTH">3433</SimpleData>
+		<SimpleData name="SURFACEWIDTH">0</SimpleData>
+		<SimpleData name="INTRLO">I5 EXPRESS AND I5 EXPRESS NB ON RP</SimpleData>
+		<SimpleData name="DIRLO">N</SimpleData>
+		<SimpleData name="INTKEYLO">489742</SimpleData>
+		<SimpleData name="INTRHI">I5 EXPRESS AND MERCER ST I5 EXPRESS RP</SimpleData>
+		<SimpleData name="DIRHI">S</SimpleData>
+		<SimpleData name="NATIONHWYSYS">N</SimpleData>
+		<SimpleData name="PVMTCONDINDX1">0</SimpleData>
+		<SimpleData name="PVMTCONDINDX2">0</SimpleData>
+		<SimpleData name="TRANCLASS">0</SimpleData>
+		<SimpleData name="TRANDESCRIPT">NOT DESIGNATED</SimpleData>
+		<SimpleData name="SLOPE_PCT">1</SimpleData>
+		<SimpleData name="PVMTCATEGORY">NONE</SimpleData>
+		<SimpleData name="PARKBOULEVARD">N</SimpleData>
+		<SimpleData name="SHAPE_Length">3433.00766490948</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.328493234978,47.6212103250556 -122.328508669184,47.6249341463042 -122.328496113325,47.6251217568911 -122.328489936504,47.6266508360999 -122.328488055459,47.6271167986219 -122.328423786759,47.627552375797 -122.328342096706,47.6279150967907 -122.328239888006,47.6281872656352 -122.328205417189,47.6282790537202 -122.328080451046,47.6285255370562 -122.327921871478,47.6287639351432 -122.327675756473,47.6290489599942 -122.327496222801,47.629234139116 -122.327415778101,47.6293166788304 -122.327174605088,47.6295306389443 -122.326884377971,47.6297840087586 -122.326510451827,47.6301184301427 -122.326381372465,47.6302328042934</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Seattle_Streets">
+		<SimpleData name="OBJECTID">9640</SimpleData>
+		<SimpleData name="ARTCLASS">5</SimpleData>
+		<SimpleData name="COMPKEY">489863</SimpleData>
+		<SimpleData name="UNITID">07815</SimpleData>
+		<SimpleData name="UNITID2">0130</SimpleData>
+		<SimpleData name="UNITIDSORT">078150130</SimpleData>
+		<SimpleData name="UNITDESC">UNIVERSITY ST ON RP BETWEEN UNIVERSITY ST AND I5 NB</SimpleData>
+		<SimpleData name="STNAME_ORD">UNIVERSITY ST ON RP</SimpleData>
+		<SimpleData name="XSTRLO">UNIVERSITY ST</SimpleData>
+		<SimpleData name="XSTRHI">I5 NB</SimpleData>
+		<SimpleData name="ARTDESCRIPT">Interstate/Freeway</SimpleData>
+		<SimpleData name="OWNER">WSDOT</SimpleData>
+		<SimpleData name="STATUS">INSVC</SimpleData>
+		<SimpleData name="BLOCKNBR">1300</SimpleData>
+		<SimpleData name="SPEEDLIMIT">30</SimpleData>
+		<SimpleData name="SEGDIR">NE</SimpleData>
+		<SimpleData name="ONEWAY">Y</SimpleData>
+		<SimpleData name="ONEWAYDIR">NE</SimpleData>
+		<SimpleData name="FLOW">F</SimpleData>
+		<SimpleData name="SEGLENGTH">1877</SimpleData>
+		<SimpleData name="SURFACEWIDTH">0</SimpleData>
+		<SimpleData name="INTRLO">6TH AVE AND UNIVERSITY ST</SimpleData>
+		<SimpleData name="DIRLO">NE</SimpleData>
+		<SimpleData name="INTKEYLO">29914</SimpleData>
+		<SimpleData name="INTRHI">I5 NB AND UNIVERSITY ST ON RP</SimpleData>
+		<SimpleData name="DIRHI">SW</SimpleData>
+		<SimpleData name="NATIONHWYSYS">N</SimpleData>
+		<SimpleData name="PVMTCONDINDX1">0</SimpleData>
+		<SimpleData name="PVMTCONDINDX2">0</SimpleData>
+		<SimpleData name="TRANCLASS">0</SimpleData>
+		<SimpleData name="TRANDESCRIPT">NOT DESIGNATED</SimpleData>
+		<SimpleData name="SLOPE_PCT">1</SimpleData>
+		<SimpleData name="PVMTCATEGORY">NONE</SimpleData>
+		<SimpleData name="PARKBOULEVARD">N</SimpleData>
+		<SimpleData name="SHAPE_Length">1876.98042407858</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.332640195521,47.609160220334 -122.331596661834,47.609559033832 -122.331521758935,47.6095934917268 -122.331479777628,47.6096252851312 -122.331420626435,47.6096740175837 -122.331003047343,47.6108584473325 -122.33048935612,47.612234998038 -122.330273957147,47.6128973598456 -122.330116699888,47.6132989512256 -122.330033572004,47.613479158195 -122.32995759168,47.6135854088548 -122.329852729009,47.6136949260821</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Seattle_Streets">
+		<SimpleData name="OBJECTID">10913</SimpleData>
+		<SimpleData name="ARTCLASS">5</SimpleData>
+		<SimpleData name="COMPKEY">491537</SimpleData>
+		<SimpleData name="UNITID">07697</SimpleData>
+		<SimpleData name="UNITID2">1660</SimpleData>
+		<SimpleData name="UNITIDSORT">076971660</SimpleData>
+		<SimpleData name="UNITDESC">I5 NB BETWEEN UNIVERSITY ST ON RP AND I5 NB MERCER ST OFF RP</SimpleData>
+		<SimpleData name="STNAME_ORD">I5 NB</SimpleData>
+		<SimpleData name="XSTRLO">UNIVERSITY ST ON RP</SimpleData>
+		<SimpleData name="XSTRHI">I5 NB MERCER ST OFF RP</SimpleData>
+		<SimpleData name="ARTDESCRIPT">Interstate/Freeway</SimpleData>
+		<SimpleData name="OWNER">WSDOT</SimpleData>
+		<SimpleData name="STATUS">INSVC</SimpleData>
+		<SimpleData name="BLOCKNBR">1660</SimpleData>
+		<SimpleData name="SPEEDLIMIT">60</SimpleData>
+		<SimpleData name="SEGDIR">N</SimpleData>
+		<SimpleData name="ONEWAY">Y</SimpleData>
+		<SimpleData name="ONEWAYDIR">N</SimpleData>
+		<SimpleData name="FLOW">F</SimpleData>
+		<SimpleData name="SEGLENGTH">2144</SimpleData>
+		<SimpleData name="SURFACEWIDTH">0</SimpleData>
+		<SimpleData name="INTRLO">I5 NB AND UNIVERSITY ST ON RP</SimpleData>
+		<SimpleData name="DIRLO">N</SimpleData>
+		<SimpleData name="INTKEYLO">489790</SimpleData>
+		<SimpleData name="INTRHI">I5 NB AND I5 NB MERCER ST OFF RP</SimpleData>
+		<SimpleData name="DIRHI">S</SimpleData>
+		<SimpleData name="NATIONHWYSYS">N</SimpleData>
+		<SimpleData name="PVMTCONDINDX1">0</SimpleData>
+		<SimpleData name="PVMTCONDINDX2">0</SimpleData>
+		<SimpleData name="TRANCLASS">0</SimpleData>
+		<SimpleData name="TRANDESCRIPT">NOT DESIGNATED</SimpleData>
+		<SimpleData name="SLOPE_PCT">0</SimpleData>
+		<SimpleData name="PVMTCATEGORY">NONE</SimpleData>
+		<SimpleData name="PARKBOULEVARD">N</SimpleData>
+		<SimpleData name="SHAPE_Length">2144.06978306555</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.329852729009,47.6136949260821 -122.329628696735,47.6142462780497 -122.329492067744,47.6145949718842 -122.32917701419,47.6154143330613 -122.328927021199,47.6159982762918 -122.32885508703,47.6162339209582 -122.328615050945,47.616941859552 -122.328466087352,47.617514218712 -122.328326189915,47.6181144182212 -122.328253224246,47.6184979612868 -122.328230526376,47.6194463720818</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Seattle_Streets">
+		<SimpleData name="OBJECTID">10914</SimpleData>
+		<SimpleData name="ARTCLASS">5</SimpleData>
+		<SimpleData name="COMPKEY">491672</SimpleData>
+		<SimpleData name="UNITID">07697</SimpleData>
+		<SimpleData name="UNITID2">1673</SimpleData>
+		<SimpleData name="UNITIDSORT">076971673</SimpleData>
+		<SimpleData name="UNITDESC">I5 NB BETWEEN MERCER ST I5 NB ON RP AND LAKEVIEW BV OFF RP</SimpleData>
+		<SimpleData name="STNAME_ORD">I5 NB</SimpleData>
+		<SimpleData name="XSTRLO">MERCER ST I5 NB ON RP</SimpleData>
+		<SimpleData name="XSTRHI">LAKEVIEW BV OFF RP</SimpleData>
+		<SimpleData name="ARTDESCRIPT">Interstate/Freeway</SimpleData>
+		<SimpleData name="OWNER">WSDOT</SimpleData>
+		<SimpleData name="STATUS">INSVC</SimpleData>
+		<SimpleData name="BLOCKNBR">1673</SimpleData>
+		<SimpleData name="SPEEDLIMIT">60</SimpleData>
+		<SimpleData name="SEGDIR">NE</SimpleData>
+		<SimpleData name="ONEWAY">Y</SimpleData>
+		<SimpleData name="ONEWAYDIR">NE</SimpleData>
+		<SimpleData name="FLOW">F</SimpleData>
+		<SimpleData name="SEGLENGTH">1216</SimpleData>
+		<SimpleData name="SURFACEWIDTH">0</SimpleData>
+		<SimpleData name="INTRLO">I5 NB AND MERCER ST I5 NB ON RP</SimpleData>
+		<SimpleData name="DIRLO">NE</SimpleData>
+		<SimpleData name="INTKEYLO">491585</SimpleData>
+		<SimpleData name="INTRHI">I5 NB AND LAKEVIEW BV OFF RP</SimpleData>
+		<SimpleData name="DIRHI">SW</SimpleData>
+		<SimpleData name="NATIONHWYSYS">N</SimpleData>
+		<SimpleData name="PVMTCONDINDX1">0</SimpleData>
+		<SimpleData name="PVMTCONDINDX2">0</SimpleData>
+		<SimpleData name="TRANCLASS">0</SimpleData>
+		<SimpleData name="TRANDESCRIPT">NOT DESIGNATED</SimpleData>
+		<SimpleData name="SLOPE_PCT">4</SimpleData>
+		<SimpleData name="PVMTCATEGORY">NONE</SimpleData>
+		<SimpleData name="PARKBOULEVARD">N</SimpleData>
+		<SimpleData name="SHAPE_Length">1216.03421737621</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.326694024397,47.6294521118573 -122.32524594356,47.6308707889331 -122.324667027823,47.6314363901182 -122.324276662829,47.6318827251161 -122.324055305346,47.6322578394313</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Seattle_Streets">
+		<SimpleData name="OBJECTID">11774</SimpleData>
+		<SimpleData name="ARTCLASS">5</SimpleData>
+		<SimpleData name="COMPKEY">491540</SimpleData>
+		<SimpleData name="UNITID">07697</SimpleData>
+		<SimpleData name="UNITID2">1664</SimpleData>
+		<SimpleData name="UNITIDSORT">076971664</SimpleData>
+		<SimpleData name="UNITDESC">I5 NB BETWEEN I5 NB MERCER ST OFF RP AND OLIVE WY ON RP</SimpleData>
+		<SimpleData name="STNAME_ORD">I5 NB</SimpleData>
+		<SimpleData name="XSTRLO">I5 NB MERCER ST OFF RP</SimpleData>
+		<SimpleData name="XSTRHI">OLIVE WY ON RP</SimpleData>
+		<SimpleData name="ARTDESCRIPT">Interstate/Freeway</SimpleData>
+		<SimpleData name="OWNER">WSDOT</SimpleData>
+		<SimpleData name="STATUS">INSVC</SimpleData>
+		<SimpleData name="BLOCKNBR">1664</SimpleData>
+		<SimpleData name="SPEEDLIMIT">60</SimpleData>
+		<SimpleData name="SEGDIR">N</SimpleData>
+		<SimpleData name="ONEWAY">Y</SimpleData>
+		<SimpleData name="ONEWAYDIR">N</SimpleData>
+		<SimpleData name="FLOW">F</SimpleData>
+		<SimpleData name="SEGLENGTH">269</SimpleData>
+		<SimpleData name="SURFACEWIDTH">0</SimpleData>
+		<SimpleData name="INTRLO">I5 NB AND I5 NB MERCER ST OFF RP</SimpleData>
+		<SimpleData name="DIRLO">N</SimpleData>
+		<SimpleData name="INTKEYLO">491528</SimpleData>
+		<SimpleData name="INTRHI">I5 NB AND OLIVE WY ON RP</SimpleData>
+		<SimpleData name="DIRHI">S</SimpleData>
+		<SimpleData name="NATIONHWYSYS">N</SimpleData>
+		<SimpleData name="PVMTCONDINDX1">0</SimpleData>
+		<SimpleData name="PVMTCONDINDX2">0</SimpleData>
+		<SimpleData name="TRANCLASS">0</SimpleData>
+		<SimpleData name="TRANDESCRIPT">NOT DESIGNATED</SimpleData>
+		<SimpleData name="SLOPE_PCT">2</SimpleData>
+		<SimpleData name="PVMTCATEGORY">NONE</SimpleData>
+		<SimpleData name="PARKBOULEVARD">N</SimpleData>
+		<SimpleData name="SHAPE_Length">269.241227147334</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.328230526376,47.6194463720818 -122.328213134779,47.6201844002917</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Seattle_Streets">
+		<SimpleData name="OBJECTID">12394</SimpleData>
+		<SimpleData name="ARTCLASS">5</SimpleData>
+		<SimpleData name="COMPKEY">491535</SimpleData>
+		<SimpleData name="UNITID">07753</SimpleData>
+		<SimpleData name="UNITID2">1666</SimpleData>
+		<SimpleData name="UNITIDSORT">077531666</SimpleData>
+		<SimpleData name="UNITDESC">I5 SB BETWEEN MERCER ST I5 SB ON RP AND STEWART ST OFF RP</SimpleData>
+		<SimpleData name="STNAME_ORD">I5 SB</SimpleData>
+		<SimpleData name="XSTRLO">MERCER ST I5 SB ON RP</SimpleData>
+		<SimpleData name="XSTRHI">STEWART ST OFF RP</SimpleData>
+		<SimpleData name="ARTDESCRIPT">Interstate/Freeway</SimpleData>
+		<SimpleData name="OWNER">WSDOT</SimpleData>
+		<SimpleData name="STATUS">INSVC</SimpleData>
+		<SimpleData name="BLOCKNBR">1666</SimpleData>
+		<SimpleData name="SPEEDLIMIT">60</SimpleData>
+		<SimpleData name="SEGDIR">N</SimpleData>
+		<SimpleData name="ONEWAY">Y</SimpleData>
+		<SimpleData name="ONEWAYDIR">S</SimpleData>
+		<SimpleData name="FLOW">T</SimpleData>
+		<SimpleData name="SEGLENGTH">724</SimpleData>
+		<SimpleData name="SURFACEWIDTH">0</SimpleData>
+		<SimpleData name="INTRLO">I5 SB AND MERCER ST I5 SB ON RP</SimpleData>
+		<SimpleData name="DIRLO">N</SimpleData>
+		<SimpleData name="INTKEYLO">491526</SimpleData>
+		<SimpleData name="INTRHI">I5 SB AND STEWART ST OFF RP</SimpleData>
+		<SimpleData name="DIRHI">S</SimpleData>
+		<SimpleData name="NATIONHWYSYS">N</SimpleData>
+		<SimpleData name="PVMTCONDINDX1">0</SimpleData>
+		<SimpleData name="PVMTCONDINDX2">0</SimpleData>
+		<SimpleData name="TRANCLASS">0</SimpleData>
+		<SimpleData name="TRANDESCRIPT">NOT DESIGNATED</SimpleData>
+		<SimpleData name="SLOPE_PCT">2</SimpleData>
+		<SimpleData name="PVMTCATEGORY">NONE</SimpleData>
+		<SimpleData name="PARKBOULEVARD">N</SimpleData>
+		<SimpleData name="SHAPE_Length">724.2696252311</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.328646885888,47.6207415275672 -122.328659454449,47.6227270865371</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Seattle_Streets">
+		<SimpleData name="OBJECTID">13171</SimpleData>
+		<SimpleData name="ARTCLASS">5</SimpleData>
+		<SimpleData name="COMPKEY">491789</SimpleData>
+		<SimpleData name="UNITID">07423</SimpleData>
+		<SimpleData name="UNITID2">1674</SimpleData>
+		<SimpleData name="UNITIDSORT">074231674</SimpleData>
+		<SimpleData name="UNITDESC">I5 EXPRESS BETWEEN MERCER ST I5 EXPRESS RP AND I5 EXPRESS NE 42 RP</SimpleData>
+		<SimpleData name="STNAME_ORD">I5 EXPRESS</SimpleData>
+		<SimpleData name="XSTRLO">MERCER ST I5 EXPRESS RP</SimpleData>
+		<SimpleData name="XSTRHI">I5 EXPRESS NE 42 RP</SimpleData>
+		<SimpleData name="ARTDESCRIPT">Interstate/Freeway</SimpleData>
+		<SimpleData name="OWNER">WSDOT</SimpleData>
+		<SimpleData name="STATUS">INSVC</SimpleData>
+		<SimpleData name="BLOCKNBR">1674</SimpleData>
+		<SimpleData name="SPEEDLIMIT">60</SimpleData>
+		<SimpleData name="SEGDIR">N</SimpleData>
+		<SimpleData name="ONEWAY">N</SimpleData>
+		<SimpleData name="ONEWAYDIR"></SimpleData>
+		<SimpleData name="FLOW"></SimpleData>
+		<SimpleData name="SEGLENGTH">9595</SimpleData>
+		<SimpleData name="SURFACEWIDTH">0</SimpleData>
+		<SimpleData name="INTRLO">I5 EXPRESS AND MERCER ST I5 EXPRESS RP</SimpleData>
+		<SimpleData name="DIRLO">N</SimpleData>
+		<SimpleData name="INTKEYLO">491583</SimpleData>
+		<SimpleData name="INTRHI">I5 EXPRESS AND I5 EXPRESS NE 42 RP</SimpleData>
+		<SimpleData name="DIRHI">S</SimpleData>
+		<SimpleData name="NATIONHWYSYS">N</SimpleData>
+		<SimpleData name="PVMTCONDINDX1">0</SimpleData>
+		<SimpleData name="PVMTCONDINDX2">0</SimpleData>
+		<SimpleData name="TRANCLASS">0</SimpleData>
+		<SimpleData name="TRANDESCRIPT">NOT DESIGNATED</SimpleData>
+		<SimpleData name="SLOPE_PCT">0</SimpleData>
+		<SimpleData name="PVMTCATEGORY">NONE</SimpleData>
+		<SimpleData name="PARKBOULEVARD">N</SimpleData>
+		<SimpleData name="SHAPE_Length">9594.82853903643</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.326381372465,47.6302328042934 -122.325561847584,47.6309589430689 -122.325268302501,47.6312220428514 -122.325076648988,47.6314135427348 -122.324857579061,47.6316490145365 -122.324563566088,47.6320211496924 -122.324410023835,47.6322551412649 -122.324300639976,47.6324295554813 -122.324148830272,47.6327346638952 -122.323993628642,47.6331146592131 -122.323470874223,47.634400122107 -122.323333956173,47.6348286185252 -122.323321206995,47.6348684750126 -122.323225852856,47.6351665683363 -122.32312537884,47.6355840288895 -122.323037367986,47.6360628430689 -122.32299348277,47.6363999522498 -122.322962648432,47.6366319499853 -122.322935336711,47.6369869361417 -122.322872596506,47.6397175092462 -122.322856124399,47.6404310870971 -122.322829961507,47.6415015434937 -122.322817107006,47.6419092623246 -122.322795138013,47.6427778195263 -122.322789965204,47.6429674357024 -122.322783902041,47.6431896383179 -122.322686782196,47.6463539899091 -122.322643795154,47.6471378640227 -122.322595819801,47.6480127326143 -122.32258149682,47.6487369657552 -122.322559561268,47.6499176651619 -122.322525579556,47.6516636697092 -122.322522145577,47.6520156703447 -122.322513236103,47.6524109659701 -122.322505181112,47.6530577394338 -122.322488855654,47.6537230249774 -122.322473949924,47.65451719908 -122.322457482602,47.6553909301575 -122.322457201361,47.6555145187773 -122.32244303615,47.6558662900909 -122.322450869436,47.6560023526384</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Seattle_Streets">
+		<SimpleData name="OBJECTID">13733</SimpleData>
+		<SimpleData name="ARTCLASS">5</SimpleData>
+		<SimpleData name="COMPKEY">489851</SimpleData>
+		<SimpleData name="UNITID">04892</SimpleData>
+		<SimpleData name="UNITID2">0090</SimpleData>
+		<SimpleData name="UNITIDSORT">048920090</SimpleData>
+		<SimpleData name="UNITDESC">9TH AV I5 EXPRESS ON RP BETWEEN 9TH AVE AND I5 EXPR PIKE AND 9TH RP</SimpleData>
+		<SimpleData name="STNAME_ORD">9TH AV I5 EXPRESS ON RP</SimpleData>
+		<SimpleData name="XSTRLO">9TH AVE</SimpleData>
+		<SimpleData name="XSTRHI">I5 EXPR PIKE AND 9TH RP</SimpleData>
+		<SimpleData name="ARTDESCRIPT">Interstate/Freeway</SimpleData>
+		<SimpleData name="OWNER">WSDOT</SimpleData>
+		<SimpleData name="STATUS">INSVC</SimpleData>
+		<SimpleData name="BLOCKNBR">900</SimpleData>
+		<SimpleData name="SPEEDLIMIT">30</SimpleData>
+		<SimpleData name="SEGDIR">W</SimpleData>
+		<SimpleData name="ONEWAY">Y</SimpleData>
+		<SimpleData name="ONEWAYDIR">E</SimpleData>
+		<SimpleData name="FLOW">T</SimpleData>
+		<SimpleData name="SEGLENGTH">124</SimpleData>
+		<SimpleData name="SURFACEWIDTH">0</SimpleData>
+		<SimpleData name="INTRLO">9TH AVE AND 9TH AV I5 EXPRESS ON RP</SimpleData>
+		<SimpleData name="DIRLO">W</SimpleData>
+		<SimpleData name="INTKEYLO">489801</SimpleData>
+		<SimpleData name="INTRHI">9TH AV I5 EXPRESS ON RP AND I5 EXPRESS PIKE ST RP</SimpleData>
+		<SimpleData name="DIRHI">E</SimpleData>
+		<SimpleData name="NATIONHWYSYS">N</SimpleData>
+		<SimpleData name="PVMTCONDINDX1">0</SimpleData>
+		<SimpleData name="PVMTCONDINDX2">0</SimpleData>
+		<SimpleData name="TRANCLASS">0</SimpleData>
+		<SimpleData name="TRANDESCRIPT">NOT DESIGNATED</SimpleData>
+		<SimpleData name="SLOPE_PCT">2</SimpleData>
+		<SimpleData name="PVMTCATEGORY">NONE</SimpleData>
+		<SimpleData name="PARKBOULEVARD">N</SimpleData>
+		<SimpleData name="SHAPE_Length">123.840992366859</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.330954381058,47.6127929505723 -122.330999711082,47.6127635952628 -122.331030936987,47.6127508597216 -122.331075618977,47.6127412332618 -122.331122895955,47.6127373246165 -122.331184523174,47.6127439838076 -122.331316230404,47.6127840800536 -122.331403512262,47.6128190836072</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Seattle_Streets">
+		<SimpleData name="OBJECTID">16097</SimpleData>
+		<SimpleData name="ARTCLASS">5</SimpleData>
+		<SimpleData name="COMPKEY">491647</SimpleData>
+		<SimpleData name="UNITID">07698</SimpleData>
+		<SimpleData name="UNITID2">0120</SimpleData>
+		<SimpleData name="UNITIDSORT">076980120</SimpleData>
+		<SimpleData name="UNITDESC">MERCER ST I5 SB ON RP BETWEEN MERCER ST ON RP AND I5 SB</SimpleData>
+		<SimpleData name="STNAME_ORD">MERCER ST I5 SB ON RP</SimpleData>
+		<SimpleData name="XSTRLO">MERCER ST ON RP</SimpleData>
+		<SimpleData name="XSTRHI">I5 SB</SimpleData>
+		<SimpleData name="ARTDESCRIPT">Interstate/Freeway</SimpleData>
+		<SimpleData name="OWNER">WSDOT</SimpleData>
+		<SimpleData name="STATUS">INSVC</SimpleData>
+		<SimpleData name="BLOCKNBR">1200</SimpleData>
+		<SimpleData name="SPEEDLIMIT">30</SimpleData>
+		<SimpleData name="SEGDIR">SE</SimpleData>
+		<SimpleData name="ONEWAY">Y</SimpleData>
+		<SimpleData name="ONEWAYDIR">SE</SimpleData>
+		<SimpleData name="FLOW">F</SimpleData>
+		<SimpleData name="SEGLENGTH">2729</SimpleData>
+		<SimpleData name="SURFACEWIDTH">0</SimpleData>
+		<SimpleData name="INTRLO">MERCER ST I5 NB ON RP AND MERCER ST ON RP</SimpleData>
+		<SimpleData name="DIRLO">SE</SimpleData>
+		<SimpleData name="INTKEYLO">491587</SimpleData>
+		<SimpleData name="INTRHI">I5 SB AND MERCER ST I5 SB ON RP</SimpleData>
+		<SimpleData name="DIRHI">NW</SimpleData>
+		<SimpleData name="NATIONHWYSYS">N</SimpleData>
+		<SimpleData name="PVMTCONDINDX1">0</SimpleData>
+		<SimpleData name="PVMTCONDINDX2">0</SimpleData>
+		<SimpleData name="TRANCLASS">0</SimpleData>
+		<SimpleData name="TRANDESCRIPT">NOT DESIGNATED</SimpleData>
+		<SimpleData name="SLOPE_PCT">3</SimpleData>
+		<SimpleData name="PVMTCATEGORY">NONE</SimpleData>
+		<SimpleData name="PARKBOULEVARD">N</SimpleData>
+		<SimpleData name="SHAPE_Length">2728.81165189097</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.333319429688,47.6246550758481 -122.331655133322,47.6248405851228 -122.330726275263,47.6250763784085 -122.33013385468,47.6252313993371 -122.329973537371,47.6252662253847 -122.329844687691,47.6252733728823 -122.3297316503,47.6252694057426 -122.329585733653,47.6252440596111 -122.329406781696,47.6251918822348 -122.329014745894,47.6250225415125 -122.328866950019,47.6249317835748 -122.32879307636,47.6248896532098 -122.328737255101,47.6248488228984 -122.328655688251,47.6247837024081 -122.328594607658,47.6247172448849 -122.32852265036,47.6245914905383 -122.328486120247,47.6245088440165 -122.328451359822,47.6244322043699 -122.328439937481,47.624359748897 -122.328441522675,47.6242523969136 -122.328646885888,47.6207415275672</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Seattle_Streets">
+		<SimpleData name="OBJECTID">16575</SimpleData>
+		<SimpleData name="ARTCLASS">5</SimpleData>
+		<SimpleData name="COMPKEY">491588</SimpleData>
+		<SimpleData name="UNITID">07753</SimpleData>
+		<SimpleData name="UNITID2">1667</SimpleData>
+		<SimpleData name="UNITIDSORT">077531667</SimpleData>
+		<SimpleData name="UNITDESC">I5 SB BETWEEN STEWART ST OFF RP AND I5 SB MERCER ST OFF RP</SimpleData>
+		<SimpleData name="STNAME_ORD">I5 SB</SimpleData>
+		<SimpleData name="XSTRLO">STEWART ST OFF RP</SimpleData>
+		<SimpleData name="XSTRHI">I5 SB MERCER ST OFF RP</SimpleData>
+		<SimpleData name="ARTDESCRIPT">Interstate/Freeway</SimpleData>
+		<SimpleData name="OWNER">WSDOT</SimpleData>
+		<SimpleData name="STATUS">INSVC</SimpleData>
+		<SimpleData name="BLOCKNBR">1667</SimpleData>
+		<SimpleData name="SPEEDLIMIT">60</SimpleData>
+		<SimpleData name="SEGDIR">N</SimpleData>
+		<SimpleData name="ONEWAY">Y</SimpleData>
+		<SimpleData name="ONEWAYDIR">S</SimpleData>
+		<SimpleData name="FLOW">T</SimpleData>
+		<SimpleData name="SEGLENGTH">2819</SimpleData>
+		<SimpleData name="SURFACEWIDTH">0</SimpleData>
+		<SimpleData name="INTRLO">I5 SB AND STEWART ST OFF RP</SimpleData>
+		<SimpleData name="DIRLO">N</SimpleData>
+		<SimpleData name="INTKEYLO">489741</SimpleData>
+		<SimpleData name="INTRHI">I5 SB AND I5 SB MERCER ST OFF RP</SimpleData>
+		<SimpleData name="DIRHI">S</SimpleData>
+		<SimpleData name="NATIONHWYSYS">N</SimpleData>
+		<SimpleData name="PVMTCONDINDX1">0</SimpleData>
+		<SimpleData name="PVMTCONDINDX2">0</SimpleData>
+		<SimpleData name="TRANCLASS">0</SimpleData>
+		<SimpleData name="TRANDESCRIPT">NOT DESIGNATED</SimpleData>
+		<SimpleData name="SLOPE_PCT">2</SimpleData>
+		<SimpleData name="PVMTCATEGORY">NONE</SimpleData>
+		<SimpleData name="PARKBOULEVARD">N</SimpleData>
+		<SimpleData name="SHAPE_Length">2819.50842968801</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.328659454449,47.6227270865371 -122.328674619352,47.6251224955376 -122.328676398922,47.6253735497339 -122.328681724041,47.6261246647185 -122.328679100202,47.6264302857366 -122.328674924683,47.6269166894853 -122.328652210657,47.6271171978554 -122.328607717131,47.6273526463727 -122.328548971191,47.6277619050321 -122.328449197821,47.6280973212729 -122.328432327567,47.6281353237565 -122.328353526339,47.6283128156711 -122.328023943399,47.6288644474317 -122.327942498763,47.6289871715314 -122.327764450748,47.6292256017734 -122.327572176758,47.6294457002284 -122.32737963667,47.6296565456968 -122.32717300465,47.6298536869057 -122.326958996504,47.6300324059249 -122.326821727176,47.6301525294771</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Seattle_Streets">
+		<SimpleData name="OBJECTID">17701</SimpleData>
+		<SimpleData name="ARTCLASS">5</SimpleData>
+		<SimpleData name="COMPKEY">491684</SimpleData>
+		<SimpleData name="UNITID">07753</SimpleData>
+		<SimpleData name="UNITID2">1674</SimpleData>
+		<SimpleData name="UNITIDSORT">077531674</SimpleData>
+		<SimpleData name="UNITDESC">I5 SB BETWEEN I5 SB MERCER ST OFF RP AND BOYLSTON AV E ON RP</SimpleData>
+		<SimpleData name="STNAME_ORD">I5 SB</SimpleData>
+		<SimpleData name="XSTRLO">I5 SB MERCER ST OFF RP</SimpleData>
+		<SimpleData name="XSTRHI">BOYLSTON AV E ON RP</SimpleData>
+		<SimpleData name="ARTDESCRIPT">Interstate/Freeway</SimpleData>
+		<SimpleData name="OWNER">WSDOT</SimpleData>
+		<SimpleData name="STATUS">INSVC</SimpleData>
+		<SimpleData name="BLOCKNBR">1674</SimpleData>
+		<SimpleData name="SPEEDLIMIT">60</SimpleData>
+		<SimpleData name="SEGDIR">NE</SimpleData>
+		<SimpleData name="ONEWAY">Y</SimpleData>
+		<SimpleData name="ONEWAYDIR">SW</SimpleData>
+		<SimpleData name="FLOW">T</SimpleData>
+		<SimpleData name="SEGLENGTH">1542</SimpleData>
+		<SimpleData name="SURFACEWIDTH">0</SimpleData>
+		<SimpleData name="INTRLO">I5 SB AND I5 SB MERCER ST OFF RP</SimpleData>
+		<SimpleData name="DIRLO">NE</SimpleData>
+		<SimpleData name="INTKEYLO">491584</SimpleData>
+		<SimpleData name="INTRHI">I5 SB AND BOYLSTON AV E ON RP</SimpleData>
+		<SimpleData name="DIRHI">SW</SimpleData>
+		<SimpleData name="NATIONHWYSYS">N</SimpleData>
+		<SimpleData name="PVMTCONDINDX1">0</SimpleData>
+		<SimpleData name="PVMTCONDINDX2">0</SimpleData>
+		<SimpleData name="TRANCLASS">0</SimpleData>
+		<SimpleData name="TRANDESCRIPT">NOT DESIGNATED</SimpleData>
+		<SimpleData name="SLOPE_PCT">2</SimpleData>
+		<SimpleData name="PVMTCATEGORY">NONE</SimpleData>
+		<SimpleData name="PARKBOULEVARD">N</SimpleData>
+		<SimpleData name="SHAPE_Length">1542.18774284811</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.326821727176,47.6301525294771 -122.326685097172,47.6302720930836 -122.325376659548,47.631451195041 -122.32513724247,47.6316996833065 -122.324978781865,47.6319054467121 -122.324826499821,47.6320879839636 -122.324697113737,47.6322551759087 -122.324628950174,47.6323636986168 -122.324563145014,47.6324571463097 -122.324505244272,47.6325875235151 -122.324408790784,47.6328063619266 -122.324287868844,47.6331273649258 -122.32400069903,47.6338611058816</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Seattle_Streets">
+		<SimpleData name="OBJECTID">17762</SimpleData>
+		<SimpleData name="ARTCLASS">5</SimpleData>
+		<SimpleData name="COMPKEY">489778</SimpleData>
+		<SimpleData name="UNITID">07730</SimpleData>
+		<SimpleData name="UNITID2">0160</SimpleData>
+		<SimpleData name="UNITIDSORT">077300160</SimpleData>
+		<SimpleData name="UNITDESC">OLIVE WY ON RP BETWEEN OLIVE WAY AND MELROSE AV ON RP</SimpleData>
+		<SimpleData name="STNAME_ORD">OLIVE WY ON RP</SimpleData>
+		<SimpleData name="XSTRLO">OLIVE WAY</SimpleData>
+		<SimpleData name="XSTRHI">MELROSE AV ON RP</SimpleData>
+		<SimpleData name="ARTDESCRIPT">Interstate/Freeway</SimpleData>
+		<SimpleData name="OWNER">WSDOT</SimpleData>
+		<SimpleData name="STATUS">INSVC</SimpleData>
+		<SimpleData name="BLOCKNBR">1600</SimpleData>
+		<SimpleData name="SPEEDLIMIT">30</SimpleData>
+		<SimpleData name="SEGDIR">N</SimpleData>
+		<SimpleData name="ONEWAY">Y</SimpleData>
+		<SimpleData name="ONEWAYDIR">N</SimpleData>
+		<SimpleData name="FLOW">F</SimpleData>
+		<SimpleData name="SEGLENGTH">368</SimpleData>
+		<SimpleData name="SURFACEWIDTH">0</SimpleData>
+		<SimpleData name="INTRLO">OLIVE WAY AND OLIVE WY ON RP</SimpleData>
+		<SimpleData name="DIRLO">N</SimpleData>
+		<SimpleData name="INTKEYLO">29849</SimpleData>
+		<SimpleData name="INTRHI">MELROSE AV ON RP AND OLIVE WY ON RP</SimpleData>
+		<SimpleData name="DIRHI">S</SimpleData>
+		<SimpleData name="NATIONHWYSYS">N</SimpleData>
+		<SimpleData name="PVMTCONDINDX1">0</SimpleData>
+		<SimpleData name="PVMTCONDINDX2">0</SimpleData>
+		<SimpleData name="TRANCLASS">0</SimpleData>
+		<SimpleData name="TRANDESCRIPT">NOT DESIGNATED</SimpleData>
+		<SimpleData name="SLOPE_PCT">1</SimpleData>
+		<SimpleData name="PVMTCATEGORY">NONE</SimpleData>
+		<SimpleData name="PARKBOULEVARD">N</SimpleData>
+		<SimpleData name="SHAPE_Length">367.763851124455</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.328509418825,47.6163785867307 -122.328303817088,47.6166985990045 -122.328251106381,47.6168679937194 -122.328217209007,47.6170241644356 -122.328159073318,47.6173501728703</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Seattle_Streets">
+		<SimpleData name="OBJECTID">18789</SimpleData>
+		<SimpleData name="ARTCLASS">5</SimpleData>
+		<SimpleData name="COMPKEY">489848</SimpleData>
+		<SimpleData name="UNITID">07569</SimpleData>
+		<SimpleData name="UNITID2">0150</SimpleData>
+		<SimpleData name="UNITIDSORT">075690150</SimpleData>
+		<SimpleData name="UNITDESC">I5 EXPRESS PIKE ST RP BETWEEN PIKE ST AND 9TH AV I5 EXPRESS ON RP</SimpleData>
+		<SimpleData name="STNAME_ORD">I5 EXPRESS PIKE ST RP</SimpleData>
+		<SimpleData name="XSTRLO">PIKE ST</SimpleData>
+		<SimpleData name="XSTRHI">9TH AV I5 EXPRESS ON RP</SimpleData>
+		<SimpleData name="ARTDESCRIPT">Interstate/Freeway</SimpleData>
+		<SimpleData name="OWNER">WSDOT</SimpleData>
+		<SimpleData name="STATUS">INSVC</SimpleData>
+		<SimpleData name="BLOCKNBR">1500</SimpleData>
+		<SimpleData name="SPEEDLIMIT">30</SimpleData>
+		<SimpleData name="SEGDIR">SW</SimpleData>
+		<SimpleData name="ONEWAY">N</SimpleData>
+		<SimpleData name="ONEWAYDIR"></SimpleData>
+		<SimpleData name="FLOW"></SimpleData>
+		<SimpleData name="SEGLENGTH">104</SimpleData>
+		<SimpleData name="SURFACEWIDTH">0</SimpleData>
+		<SimpleData name="INTRLO">PIKE ST AND CONVENTION PL</SimpleData>
+		<SimpleData name="DIRLO">SW</SimpleData>
+		<SimpleData name="INTKEYLO">29883</SimpleData>
+		<SimpleData name="INTRHI">9TH AV I5 EXPRESS ON RP AND I5 EXPRESS PIKE ST RP</SimpleData>
+		<SimpleData name="DIRHI">NE</SimpleData>
+		<SimpleData name="NATIONHWYSYS">N</SimpleData>
+		<SimpleData name="PVMTCONDINDX1">0</SimpleData>
+		<SimpleData name="PVMTCONDINDX2">0</SimpleData>
+		<SimpleData name="TRANCLASS">0</SimpleData>
+		<SimpleData name="TRANDESCRIPT">NOT DESIGNATED</SimpleData>
+		<SimpleData name="SLOPE_PCT">2</SimpleData>
+		<SimpleData name="PVMTCATEGORY">NONE</SimpleData>
+		<SimpleData name="PARKBOULEVARD">N</SimpleData>
+		<SimpleData name="SHAPE_Length">103.862585016578</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.330954381058,47.6127929505723 -122.331133851864,47.6125353697869</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Seattle_Streets">
+		<SimpleData name="OBJECTID">18796</SimpleData>
+		<SimpleData name="ARTCLASS">5</SimpleData>
+		<SimpleData name="COMPKEY">491655</SimpleData>
+		<SimpleData name="UNITID">07761</SimpleData>
+		<SimpleData name="UNITID2">0070</SimpleData>
+		<SimpleData name="UNITIDSORT">077610070</SimpleData>
+		<SimpleData name="UNITDESC">I5 SB MERCER ST OFF RP BETWEEN I5 SB AND MERCER ST OFF RP</SimpleData>
+		<SimpleData name="STNAME_ORD">I5 SB MERCER ST OFF RP</SimpleData>
+		<SimpleData name="XSTRLO">I5 SB</SimpleData>
+		<SimpleData name="XSTRHI">MERCER ST OFF RP</SimpleData>
+		<SimpleData name="ARTDESCRIPT">Interstate/Freeway</SimpleData>
+		<SimpleData name="OWNER">WSDOT</SimpleData>
+		<SimpleData name="STATUS">INSVC</SimpleData>
+		<SimpleData name="BLOCKNBR">700</SimpleData>
+		<SimpleData name="SPEEDLIMIT">30</SimpleData>
+		<SimpleData name="SEGDIR">SW</SimpleData>
+		<SimpleData name="ONEWAY">Y</SimpleData>
+		<SimpleData name="ONEWAYDIR">SW</SimpleData>
+		<SimpleData name="FLOW">F</SimpleData>
+		<SimpleData name="SEGLENGTH">2364</SimpleData>
+		<SimpleData name="SURFACEWIDTH">0</SimpleData>
+		<SimpleData name="INTRLO">I5 SB AND I5 SB MERCER ST OFF RP</SimpleData>
+		<SimpleData name="DIRLO">SW</SimpleData>
+		<SimpleData name="INTKEYLO">491584</SimpleData>
+		<SimpleData name="INTRHI">MERCER ST OFF RP AND I5 NB MERCER ST OFF RP</SimpleData>
+		<SimpleData name="DIRHI">NE</SimpleData>
+		<SimpleData name="NATIONHWYSYS">N</SimpleData>
+		<SimpleData name="PVMTCONDINDX1">0</SimpleData>
+		<SimpleData name="PVMTCONDINDX2">0</SimpleData>
+		<SimpleData name="TRANCLASS">0</SimpleData>
+		<SimpleData name="TRANDESCRIPT">NOT DESIGNATED</SimpleData>
+		<SimpleData name="SLOPE_PCT">1</SimpleData>
+		<SimpleData name="PVMTCATEGORY">NONE</SimpleData>
+		<SimpleData name="PARKBOULEVARD">N</SimpleData>
+		<SimpleData name="SHAPE_Length">2364.75845896858</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.326821727176,47.6301525294771 -122.326934269449,47.6301253160761 -122.327008374997,47.6300826801392 -122.32771108339,47.6295133163975 -122.327984306328,47.629250490549 -122.328488075289,47.6286698456264 -122.328937547631,47.6280807563478 -122.329040247752,47.6279668293203 -122.329079497218,47.6278976330167 -122.329104232132,47.6278227064542 -122.329119815421,47.6277756374948 -122.329124137169,47.6277252188627 -122.329142096688,47.6265070927265 -122.329153993356,47.6263943577568 -122.329200480108,47.6262688778713 -122.329237865287,47.6262131498082 -122.329275761244,47.6261738949612 -122.329319151793,47.6261421398591 -122.329321802425,47.6261401986905 -122.329397321918,47.6260987282852 -122.329711486434,47.6259640098308 -122.33007179781,47.6258224196098 -122.330422480425,47.6256980618376 -122.330836416456,47.6255660670862 -122.331203026157,47.6254596189585 -122.331874816076,47.625264556773</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Seattle_Streets">
+		<SimpleData name="OBJECTID">19212</SimpleData>
+		<SimpleData name="ARTCLASS">5</SimpleData>
+		<SimpleData name="COMPKEY">10989</SimpleData>
+		<SimpleData name="UNITID">07694</SimpleData>
+		<SimpleData name="UNITID2">0115</SimpleData>
+		<SimpleData name="UNITIDSORT">076940115</SimpleData>
+		<SimpleData name="UNITDESC">MERCER ST OFF RP BETWEEN I5 NB MERCER ST OFF RP AND FAIRVIEW AVE N</SimpleData>
+		<SimpleData name="STNAME_ORD">MERCER ST OFF RP</SimpleData>
+		<SimpleData name="XSTRLO">I5 NB MERCER ST OFF RP</SimpleData>
+		<SimpleData name="XSTRHI">FAIRVIEW AVE N</SimpleData>
+		<SimpleData name="ARTDESCRIPT">Interstate/Freeway</SimpleData>
+		<SimpleData name="OWNER">WSDOT</SimpleData>
+		<SimpleData name="STATUS">INSVC</SimpleData>
+		<SimpleData name="BLOCKNBR">1100</SimpleData>
+		<SimpleData name="SPEEDLIMIT">30</SimpleData>
+		<SimpleData name="SEGDIR">W</SimpleData>
+		<SimpleData name="ONEWAY">Y</SimpleData>
+		<SimpleData name="ONEWAYDIR">W</SimpleData>
+		<SimpleData name="FLOW">F</SimpleData>
+		<SimpleData name="SEGLENGTH">631</SimpleData>
+		<SimpleData name="SURFACEWIDTH">0</SimpleData>
+		<SimpleData name="INTRLO">FAIRVIEW AVE N AND MERCER ST</SimpleData>
+		<SimpleData name="DIRLO">W</SimpleData>
+		<SimpleData name="INTKEYLO">28760</SimpleData>
+		<SimpleData name="INTRHI">MERCER ST OFF RP AND I5 NB MERCER ST OFF RP</SimpleData>
+		<SimpleData name="DIRHI">E</SimpleData>
+		<SimpleData name="NATIONHWYSYS">N</SimpleData>
+		<SimpleData name="PVMTCONDINDX1">0</SimpleData>
+		<SimpleData name="PVMTCONDINDX2">0</SimpleData>
+		<SimpleData name="TRANCLASS">0</SimpleData>
+		<SimpleData name="TRANDESCRIPT">NOT DESIGNATED</SimpleData>
+		<SimpleData name="SLOPE_PCT">5</SimpleData>
+		<SimpleData name="PVMTCATEGORY">NONE</SimpleData>
+		<SimpleData name="PARKBOULEVARD">N</SimpleData>
+		<SimpleData name="SHAPE_Length">631.217102258593</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.331874816076,47.625264556773 -122.332560168393,47.6250655496137 -122.333102901257,47.6249332801293 -122.334287968659,47.6246937768515</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Seattle_Streets">
+		<SimpleData name="OBJECTID">19618</SimpleData>
+		<SimpleData name="ARTCLASS">5</SimpleData>
+		<SimpleData name="COMPKEY">489839</SimpleData>
+		<SimpleData name="UNITID">07568</SimpleData>
+		<SimpleData name="UNITID2">0150</SimpleData>
+		<SimpleData name="UNITIDSORT">075680150</SimpleData>
+		<SimpleData name="UNITDESC">I5 EXPR PIKE AND 9TH RP BETWEEN 9TH AV I5 EXPRESS ON RP AND I5 BUS TUNNEL RP</SimpleData>
+		<SimpleData name="STNAME_ORD">I5 EXPR PIKE AND 9TH RP</SimpleData>
+		<SimpleData name="XSTRLO">9TH AV I5 EXPRESS ON RP</SimpleData>
+		<SimpleData name="XSTRHI">I5 BUS TUNNEL RP</SimpleData>
+		<SimpleData name="ARTDESCRIPT">Interstate/Freeway</SimpleData>
+		<SimpleData name="OWNER">WSDOT</SimpleData>
+		<SimpleData name="STATUS">INSVC</SimpleData>
+		<SimpleData name="BLOCKNBR">1500</SimpleData>
+		<SimpleData name="SPEEDLIMIT">30</SimpleData>
+		<SimpleData name="SEGDIR">N</SimpleData>
+		<SimpleData name="ONEWAY">N</SimpleData>
+		<SimpleData name="ONEWAYDIR"></SimpleData>
+		<SimpleData name="FLOW"></SimpleData>
+		<SimpleData name="SEGLENGTH">722</SimpleData>
+		<SimpleData name="SURFACEWIDTH">0</SimpleData>
+		<SimpleData name="INTRLO">9TH AV I5 EXPRESS ON RP AND I5 EXPRESS PIKE ST RP</SimpleData>
+		<SimpleData name="DIRLO">N</SimpleData>
+		<SimpleData name="INTKEYLO">489799</SimpleData>
+		<SimpleData name="INTRHI">I5 BUS TUNNEL RP AND I5 EXPR PIKE AND 9TH RP</SimpleData>
+		<SimpleData name="DIRHI">S</SimpleData>
+		<SimpleData name="NATIONHWYSYS">N</SimpleData>
+		<SimpleData name="PVMTCONDINDX1">0</SimpleData>
+		<SimpleData name="PVMTCONDINDX2">0</SimpleData>
+		<SimpleData name="TRANCLASS">0</SimpleData>
+		<SimpleData name="TRANDESCRIPT">NOT DESIGNATED</SimpleData>
+		<SimpleData name="SLOPE_PCT">7</SimpleData>
+		<SimpleData name="PVMTCATEGORY">NONE</SimpleData>
+		<SimpleData name="PARKBOULEVARD">N</SimpleData>
+		<SimpleData name="SHAPE_Length">722.513717037796</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.330954381058,47.6127929505723 -122.330724349411,47.6131780075664 -122.330286870069,47.6142625229883 -122.330104514766,47.6146862876688</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Seattle_Streets">
+		<SimpleData name="OBJECTID">19622</SimpleData>
+		<SimpleData name="ARTCLASS">5</SimpleData>
+		<SimpleData name="COMPKEY">491596</SimpleData>
+		<SimpleData name="UNITID">07695</SimpleData>
+		<SimpleData name="UNITID2">0110</SimpleData>
+		<SimpleData name="UNITIDSORT">076950110</SimpleData>
+		<SimpleData name="UNITDESC">MERCER ST ON RP BETWEEN FAIRVIEW AVE N AND MERCER ST I5 NB ON RP</SimpleData>
+		<SimpleData name="STNAME_ORD">MERCER ST ON RP</SimpleData>
+		<SimpleData name="XSTRLO">FAIRVIEW AVE N</SimpleData>
+		<SimpleData name="XSTRHI">MERCER ST I5 NB ON RP</SimpleData>
+		<SimpleData name="ARTDESCRIPT">Interstate/Freeway</SimpleData>
+		<SimpleData name="OWNER">WSDOT</SimpleData>
+		<SimpleData name="STATUS">INSVC</SimpleData>
+		<SimpleData name="BLOCKNBR">1100</SimpleData>
+		<SimpleData name="SPEEDLIMIT">30</SimpleData>
+		<SimpleData name="SEGDIR">E</SimpleData>
+		<SimpleData name="ONEWAY">Y</SimpleData>
+		<SimpleData name="ONEWAYDIR">E</SimpleData>
+		<SimpleData name="FLOW">F</SimpleData>
+		<SimpleData name="SEGLENGTH">239</SimpleData>
+		<SimpleData name="SURFACEWIDTH">0</SimpleData>
+		<SimpleData name="INTRLO">FAIRVIEW AVE N AND MERCER ST</SimpleData>
+		<SimpleData name="DIRLO">E</SimpleData>
+		<SimpleData name="INTKEYLO">28760</SimpleData>
+		<SimpleData name="INTRHI">MERCER ST I5 NB ON RP AND MERCER ST ON RP</SimpleData>
+		<SimpleData name="DIRHI">W</SimpleData>
+		<SimpleData name="NATIONHWYSYS">N</SimpleData>
+		<SimpleData name="PVMTCONDINDX1">0</SimpleData>
+		<SimpleData name="PVMTCONDINDX2">0</SimpleData>
+		<SimpleData name="TRANCLASS">0</SimpleData>
+		<SimpleData name="TRANDESCRIPT">NOT DESIGNATED</SimpleData>
+		<SimpleData name="SLOPE_PCT">3</SimpleData>
+		<SimpleData name="PVMTCATEGORY">NONE</SimpleData>
+		<SimpleData name="PARKBOULEVARD">N</SimpleData>
+		<SimpleData name="SHAPE_Length">239.257321273718</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.334287968659,47.6246937768515 -122.333319429688,47.6246550758481</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Seattle_Streets">
+		<SimpleData name="OBJECTID">20674</SimpleData>
+		<SimpleData name="ARTCLASS">5</SimpleData>
+		<SimpleData name="COMPKEY">489844</SimpleData>
+		<SimpleData name="UNITID">07568</SimpleData>
+		<SimpleData name="UNITID2">0160</SimpleData>
+		<SimpleData name="UNITIDSORT">075680160</SimpleData>
+		<SimpleData name="UNITDESC">I5 EXPR PIKE AND 9TH RP BETWEEN I5 BUS TUNNEL RP AND I5 EXPRESS</SimpleData>
+		<SimpleData name="STNAME_ORD">I5 EXPR PIKE AND 9TH RP</SimpleData>
+		<SimpleData name="XSTRLO">I5 BUS TUNNEL RP</SimpleData>
+		<SimpleData name="XSTRHI">I5 EXPRESS</SimpleData>
+		<SimpleData name="ARTDESCRIPT">Interstate/Freeway</SimpleData>
+		<SimpleData name="OWNER">WSDOT</SimpleData>
+		<SimpleData name="STATUS">INSVC</SimpleData>
+		<SimpleData name="BLOCKNBR">1600</SimpleData>
+		<SimpleData name="SPEEDLIMIT">30</SimpleData>
+		<SimpleData name="SEGDIR">N</SimpleData>
+		<SimpleData name="ONEWAY">N</SimpleData>
+		<SimpleData name="ONEWAYDIR"></SimpleData>
+		<SimpleData name="FLOW"></SimpleData>
+		<SimpleData name="SEGLENGTH">1781</SimpleData>
+		<SimpleData name="SURFACEWIDTH">0</SimpleData>
+		<SimpleData name="INTRLO">I5 BUS TUNNEL RP AND I5 EXPR PIKE AND 9TH RP</SimpleData>
+		<SimpleData name="DIRLO">N</SimpleData>
+		<SimpleData name="INTKEYLO">489787</SimpleData>
+		<SimpleData name="INTRHI">I5 EXPRESS AND I5 EXPR PIKE AND 9TH RP</SimpleData>
+		<SimpleData name="DIRHI">S</SimpleData>
+		<SimpleData name="NATIONHWYSYS">N</SimpleData>
+		<SimpleData name="PVMTCONDINDX1">0</SimpleData>
+		<SimpleData name="PVMTCONDINDX2">0</SimpleData>
+		<SimpleData name="TRANCLASS">0</SimpleData>
+		<SimpleData name="TRANDESCRIPT">NOT DESIGNATED</SimpleData>
+		<SimpleData name="SLOPE_PCT">0</SimpleData>
+		<SimpleData name="PVMTCATEGORY">NONE</SimpleData>
+		<SimpleData name="PARKBOULEVARD">N</SimpleData>
+		<SimpleData name="SHAPE_Length">1781.26176168567</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.330104514766,47.6146862876688 -122.329657551192,47.6157385346036 -122.328751765644,47.6190088392976 -122.328485873849,47.6194337364909</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Seattle_Streets">
+		<SimpleData name="OBJECTID">20681</SimpleData>
+		<SimpleData name="ARTCLASS">5</SimpleData>
+		<SimpleData name="COMPKEY">491653</SimpleData>
+		<SimpleData name="UNITID">07702</SimpleData>
+		<SimpleData name="UNITID2">0020</SimpleData>
+		<SimpleData name="UNITIDSORT">077020020</SimpleData>
+		<SimpleData name="UNITDESC">I5 NB MERCER ST OFF RP BETWEEN I5 NB AND MERCER ST OFF RP</SimpleData>
+		<SimpleData name="STNAME_ORD">I5 NB MERCER ST OFF RP</SimpleData>
+		<SimpleData name="XSTRLO">I5 NB</SimpleData>
+		<SimpleData name="XSTRHI">MERCER ST OFF RP</SimpleData>
+		<SimpleData name="ARTDESCRIPT">Interstate/Freeway</SimpleData>
+		<SimpleData name="OWNER">WSDOT</SimpleData>
+		<SimpleData name="STATUS">INSVC</SimpleData>
+		<SimpleData name="BLOCKNBR">200</SimpleData>
+		<SimpleData name="SPEEDLIMIT">30</SimpleData>
+		<SimpleData name="SEGDIR">NW</SimpleData>
+		<SimpleData name="ONEWAY">Y</SimpleData>
+		<SimpleData name="ONEWAYDIR">NW</SimpleData>
+		<SimpleData name="FLOW">F</SimpleData>
+		<SimpleData name="SEGLENGTH">2868</SimpleData>
+		<SimpleData name="SURFACEWIDTH">0</SimpleData>
+		<SimpleData name="INTRLO">I5 NB AND I5 NB MERCER ST OFF RP</SimpleData>
+		<SimpleData name="DIRLO">NW</SimpleData>
+		<SimpleData name="INTKEYLO">491528</SimpleData>
+		<SimpleData name="INTRHI">MERCER ST OFF RP AND I5 NB MERCER ST OFF RP</SimpleData>
+		<SimpleData name="DIRHI">SE</SimpleData>
+		<SimpleData name="NATIONHWYSYS">N</SimpleData>
+		<SimpleData name="PVMTCONDINDX1">0</SimpleData>
+		<SimpleData name="PVMTCONDINDX2">0</SimpleData>
+		<SimpleData name="TRANCLASS">0</SimpleData>
+		<SimpleData name="TRANDESCRIPT">NOT DESIGNATED</SimpleData>
+		<SimpleData name="SLOPE_PCT">3</SimpleData>
+		<SimpleData name="PVMTCATEGORY">NONE</SimpleData>
+		<SimpleData name="PARKBOULEVARD">N</SimpleData>
+		<SimpleData name="SHAPE_Length">2867.51695952049</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.328230526376,47.6194463720818 -122.32835512536,47.620272614413 -122.328310308443,47.6236061348374 -122.328322941292,47.624224630949 -122.328344002519,47.6244336145656 -122.328379850043,47.6245436324214 -122.328448734942,47.6246658423349 -122.32856294008,47.6248049316361 -122.328673323934,47.6249181373572 -122.328872967227,47.6250548535051 -122.329167763215,47.6251893975344 -122.329531174741,47.625310211543 -122.329923929933,47.6254151057516 -122.330038359088,47.6254351521356 -122.330138776841,47.6254430670594 -122.330373954113,47.6254463594222 -122.330535057433,47.6254387870683 -122.331009515337,47.625388922096 -122.331874816076,47.625264556773</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Seattle_Streets">
+		<SimpleData name="OBJECTID">21081</SimpleData>
+		<SimpleData name="ARTCLASS">5</SimpleData>
+		<SimpleData name="COMPKEY">489775</SimpleData>
+		<SimpleData name="UNITID">07625</SimpleData>
+		<SimpleData name="UNITID2">0010</SimpleData>
+		<SimpleData name="UNITIDSORT">076250010</SimpleData>
+		<SimpleData name="UNITDESC">I5 EXPRESS NB ON RP BETWEEN EASTLAKE AVE E AND I5 EXPRESS</SimpleData>
+		<SimpleData name="STNAME_ORD">I5 EXPRESS NB ON RP</SimpleData>
+		<SimpleData name="XSTRLO">EASTLAKE AVE E</SimpleData>
+		<SimpleData name="XSTRHI">I5 EXPRESS</SimpleData>
+		<SimpleData name="ARTDESCRIPT">Interstate/Freeway</SimpleData>
+		<SimpleData name="OWNER">WSDOT</SimpleData>
+		<SimpleData name="STATUS">INSVC</SimpleData>
+		<SimpleData name="BLOCKNBR">100</SimpleData>
+		<SimpleData name="SPEEDLIMIT">30</SimpleData>
+		<SimpleData name="SEGDIR">N</SimpleData>
+		<SimpleData name="ONEWAY">Y</SimpleData>
+		<SimpleData name="ONEWAYDIR">N</SimpleData>
+		<SimpleData name="FLOW">F</SimpleData>
+		<SimpleData name="SEGLENGTH">996</SimpleData>
+		<SimpleData name="SURFACEWIDTH">0</SimpleData>
+		<SimpleData name="INTRLO">DENNY LOWER WAY AND EASTLAKE AVE</SimpleData>
+		<SimpleData name="DIRLO">N</SimpleData>
+		<SimpleData name="INTKEYLO">29166</SimpleData>
+		<SimpleData name="INTRHI">I5 EXPRESS AND I5 EXPRESS NB ON RP</SimpleData>
+		<SimpleData name="DIRHI">S</SimpleData>
+		<SimpleData name="NATIONHWYSYS">N</SimpleData>
+		<SimpleData name="PVMTCONDINDX1">0</SimpleData>
+		<SimpleData name="PVMTCONDINDX2">0</SimpleData>
+		<SimpleData name="TRANCLASS">0</SimpleData>
+		<SimpleData name="TRANDESCRIPT">NOT DESIGNATED</SimpleData>
+		<SimpleData name="SLOPE_PCT">0</SimpleData>
+		<SimpleData name="PVMTCATEGORY">NONE</SimpleData>
+		<SimpleData name="PARKBOULEVARD">N</SimpleData>
+		<SimpleData name="SHAPE_Length">995.794803632605</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.329128118607,47.618534413697 -122.328900161996,47.6188795102829 -122.328861132323,47.6189431674294 -122.328833999123,47.6190145632825 -122.328818535781,47.6190858040251 -122.328732450218,47.6199492630709 -122.328722709322,47.6200164818678 -122.328644124051,47.6203052815594 -122.328493234978,47.6212103250556</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Seattle_Streets">
+		<SimpleData name="OBJECTID">21261</SimpleData>
+		<SimpleData name="ARTCLASS">5</SimpleData>
+		<SimpleData name="COMPKEY">491542</SimpleData>
+		<SimpleData name="UNITID">07423</SimpleData>
+		<SimpleData name="UNITID2">1664</SimpleData>
+		<SimpleData name="UNITIDSORT">074231664</SimpleData>
+		<SimpleData name="UNITDESC">I5 EXPRESS BETWEEN I5 EXPR PIKE AND 9TH RP AND I5 EXPRESS SB OFF RP</SimpleData>
+		<SimpleData name="STNAME_ORD">I5 EXPRESS</SimpleData>
+		<SimpleData name="XSTRLO">I5 EXPR PIKE AND 9TH RP</SimpleData>
+		<SimpleData name="XSTRHI">I5 EXPRESS SB OFF RP</SimpleData>
+		<SimpleData name="ARTDESCRIPT">Interstate/Freeway</SimpleData>
+		<SimpleData name="OWNER">WSDOT</SimpleData>
+		<SimpleData name="STATUS">INSVC</SimpleData>
+		<SimpleData name="BLOCKNBR">1664</SimpleData>
+		<SimpleData name="SPEEDLIMIT">60</SimpleData>
+		<SimpleData name="SEGDIR">N</SimpleData>
+		<SimpleData name="ONEWAY">N</SimpleData>
+		<SimpleData name="ONEWAYDIR"></SimpleData>
+		<SimpleData name="FLOW"></SimpleData>
+		<SimpleData name="SEGLENGTH">648</SimpleData>
+		<SimpleData name="SURFACEWIDTH">0</SimpleData>
+		<SimpleData name="INTRLO">I5 EXPRESS AND I5 EXPR PIKE AND 9TH RP</SimpleData>
+		<SimpleData name="DIRLO">N</SimpleData>
+		<SimpleData name="INTKEYLO">489759</SimpleData>
+		<SimpleData name="INTRHI">I5 EXPRESS AND I5 EXPRESS NB ON RP</SimpleData>
+		<SimpleData name="DIRHI">S</SimpleData>
+		<SimpleData name="NATIONHWYSYS">N</SimpleData>
+		<SimpleData name="PVMTCONDINDX1">0</SimpleData>
+		<SimpleData name="PVMTCONDINDX2">0</SimpleData>
+		<SimpleData name="TRANCLASS">0</SimpleData>
+		<SimpleData name="TRANDESCRIPT">NOT DESIGNATED</SimpleData>
+		<SimpleData name="SLOPE_PCT">2</SimpleData>
+		<SimpleData name="PVMTCATEGORY">NONE</SimpleData>
+		<SimpleData name="PARKBOULEVARD">N</SimpleData>
+		<SimpleData name="SHAPE_Length">648.040362311892</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.328485873849,47.6194337364909 -122.328493234978,47.6212103250556</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Seattle_Streets">
+		<SimpleData name="OBJECTID">22359</SimpleData>
+		<SimpleData name="ARTCLASS">5</SimpleData>
+		<SimpleData name="COMPKEY">489760</SimpleData>
+		<SimpleData name="UNITID">07785</SimpleData>
+		<SimpleData name="UNITID2">0020</SimpleData>
+		<SimpleData name="UNITIDSORT">077850020</SimpleData>
+		<SimpleData name="UNITDESC">STEWART ST OFF RP BETWEEN I5 SB AND STEWART ST</SimpleData>
+		<SimpleData name="STNAME_ORD">STEWART ST OFF RP</SimpleData>
+		<SimpleData name="XSTRLO">I5 SB</SimpleData>
+		<SimpleData name="XSTRHI">STEWART ST</SimpleData>
+		<SimpleData name="ARTDESCRIPT">Interstate/Freeway</SimpleData>
+		<SimpleData name="OWNER">WSDOT</SimpleData>
+		<SimpleData name="STATUS">INSVC</SimpleData>
+		<SimpleData name="BLOCKNBR">200</SimpleData>
+		<SimpleData name="SPEEDLIMIT">30</SimpleData>
+		<SimpleData name="SEGDIR">S</SimpleData>
+		<SimpleData name="ONEWAY">Y</SimpleData>
+		<SimpleData name="ONEWAYDIR">S</SimpleData>
+		<SimpleData name="FLOW">F</SimpleData>
+		<SimpleData name="SEGLENGTH">1118</SimpleData>
+		<SimpleData name="SURFACEWIDTH">0</SimpleData>
+		<SimpleData name="INTRLO">I5 SB AND STEWART ST OFF RP</SimpleData>
+		<SimpleData name="DIRLO">S</SimpleData>
+		<SimpleData name="INTKEYLO">489741</SimpleData>
+		<SimpleData name="INTRHI">EASTLAKE AVE E AND STEWART ST</SimpleData>
+		<SimpleData name="DIRHI">N</SimpleData>
+		<SimpleData name="NATIONHWYSYS">N</SimpleData>
+		<SimpleData name="PVMTCONDINDX1">0</SimpleData>
+		<SimpleData name="PVMTCONDINDX2">0</SimpleData>
+		<SimpleData name="TRANCLASS">0</SimpleData>
+		<SimpleData name="TRANDESCRIPT">NOT DESIGNATED</SimpleData>
+		<SimpleData name="SLOPE_PCT">1</SimpleData>
+		<SimpleData name="PVMTCATEGORY">NONE</SimpleData>
+		<SimpleData name="PARKBOULEVARD">N</SimpleData>
+		<SimpleData name="SHAPE_Length">1118.18218526074</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.328659454449,47.6227270865371 -122.328710986376,47.6226621596662 -122.328757762372,47.6225962947997 -122.328801181519,47.622527116751 -122.328834020974,47.6224662793273 -122.328859146574,47.6224080271173 -122.328880163928,47.6223458291523 -122.328897329068,47.6222789481779 -122.328911060378,47.6222057933356 -122.328924200094,47.6221012726192 -122.328944596551,47.6218479002627 -122.32896563905,47.62165625308 -122.328972423274,47.6215616702498 -122.328976538259,47.6214621447667 -122.328978042242,47.6213361827445 -122.328975955753,47.6211961747805 -122.328971235513,47.6210573499992 -122.328955722855,47.6206958579773 -122.328951341487,47.6204944397377 -122.328951913621,47.6203925274876 -122.328954750974,47.6202970185242 -122.328958747122,47.6202231648727 -122.328969306248,47.6200756507426 -122.328974931143,47.6200335975304 -122.328986128077,47.6199867734411 -122.329001494258,47.6199395886818 -122.329020828603,47.6198929400072 -122.329043656344,47.6198476930215 -122.329070302706,47.6198029633737 -122.329100770725,47.6197587485642 -122.329135058904,47.6197150510663</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Seattle_Streets">
+		<SimpleData name="OBJECTID">22752</SimpleData>
+		<SimpleData name="ARTCLASS">5</SimpleData>
+		<SimpleData name="COMPKEY">491693</SimpleData>
+		<SimpleData name="UNITID">07650</SimpleData>
+		<SimpleData name="UNITID2">0150</SimpleData>
+		<SimpleData name="UNITIDSORT">076500150</SimpleData>
+		<SimpleData name="UNITDESC">LAKEVIEW BV OFF RP BETWEEN I5 NB AND E GARFIELD ST</SimpleData>
+		<SimpleData name="STNAME_ORD">LAKEVIEW BV OFF RP</SimpleData>
+		<SimpleData name="XSTRLO">I5 NB</SimpleData>
+		<SimpleData name="XSTRHI">E GARFIELD ST</SimpleData>
+		<SimpleData name="ARTDESCRIPT">Interstate/Freeway</SimpleData>
+		<SimpleData name="OWNER">WSDOT</SimpleData>
+		<SimpleData name="STATUS">INSVC</SimpleData>
+		<SimpleData name="BLOCKNBR">1500</SimpleData>
+		<SimpleData name="SPEEDLIMIT">30</SimpleData>
+		<SimpleData name="SEGDIR">N</SimpleData>
+		<SimpleData name="ONEWAY">Y</SimpleData>
+		<SimpleData name="ONEWAYDIR">N</SimpleData>
+		<SimpleData name="FLOW">F</SimpleData>
+		<SimpleData name="SEGLENGTH">674</SimpleData>
+		<SimpleData name="SURFACEWIDTH">0</SimpleData>
+		<SimpleData name="INTRLO">I5 NB AND LAKEVIEW BV OFF RP</SimpleData>
+		<SimpleData name="DIRLO">N</SimpleData>
+		<SimpleData name="INTKEYLO">491679</SimpleData>
+		<SimpleData name="INTRHI">LAKEVIEW BV OFF RP AND E GARFIELD ST</SimpleData>
+		<SimpleData name="DIRHI">S</SimpleData>
+		<SimpleData name="NATIONHWYSYS">N</SimpleData>
+		<SimpleData name="PVMTCONDINDX1">0</SimpleData>
+		<SimpleData name="PVMTCONDINDX2">0</SimpleData>
+		<SimpleData name="TRANCLASS">0</SimpleData>
+		<SimpleData name="TRANDESCRIPT">NOT DESIGNATED</SimpleData>
+		<SimpleData name="SLOPE_PCT">11</SimpleData>
+		<SimpleData name="PVMTCATEGORY">NONE</SimpleData>
+		<SimpleData name="PARKBOULEVARD">N</SimpleData>
+		<SimpleData name="SHAPE_Length">673.912377708861</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.324055305346,47.6322578394313 -122.323716055309,47.6327530430992 -122.323569587295,47.6330015253057 -122.323460385086,47.6332105872853 -122.323359292024,47.6333676367773 -122.323111569178,47.6339867332636</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Seattle_Streets">
+		<SimpleData name="OBJECTID">23398</SimpleData>
+		<SimpleData name="ARTCLASS">5</SimpleData>
+		<SimpleData name="COMPKEY">489829</SimpleData>
+		<SimpleData name="UNITID">07725</SimpleData>
+		<SimpleData name="UNITID2">0150</SimpleData>
+		<SimpleData name="UNITIDSORT">077250150</SimpleData>
+		<SimpleData name="UNITDESC">OLIVE WY OFF RP BETWEEN I5 NB AND OLIVE WAY</SimpleData>
+		<SimpleData name="STNAME_ORD">OLIVE WY OFF RP</SimpleData>
+		<SimpleData name="XSTRLO">I5 NB</SimpleData>
+		<SimpleData name="XSTRHI">OLIVE WAY</SimpleData>
+		<SimpleData name="ARTDESCRIPT">Interstate/Freeway</SimpleData>
+		<SimpleData name="OWNER">WSDOT</SimpleData>
+		<SimpleData name="STATUS">INSVC</SimpleData>
+		<SimpleData name="BLOCKNBR">1500</SimpleData>
+		<SimpleData name="SPEEDLIMIT">30</SimpleData>
+		<SimpleData name="SEGDIR">N</SimpleData>
+		<SimpleData name="ONEWAY">Y</SimpleData>
+		<SimpleData name="ONEWAYDIR">N</SimpleData>
+		<SimpleData name="FLOW">F</SimpleData>
+		<SimpleData name="SEGLENGTH">1121</SimpleData>
+		<SimpleData name="SURFACEWIDTH">0</SimpleData>
+		<SimpleData name="INTRLO">I5 NB AND OLIVE WY OFF RP</SimpleData>
+		<SimpleData name="DIRLO">N</SimpleData>
+		<SimpleData name="INTKEYLO">489794</SimpleData>
+		<SimpleData name="INTRHI">OLIVE WAY AND OLIVE WY ON RP</SimpleData>
+		<SimpleData name="DIRHI">S</SimpleData>
+		<SimpleData name="NATIONHWYSYS">N</SimpleData>
+		<SimpleData name="PVMTCONDINDX1">0</SimpleData>
+		<SimpleData name="PVMTCONDINDX2">0</SimpleData>
+		<SimpleData name="TRANCLASS">0</SimpleData>
+		<SimpleData name="TRANDESCRIPT">NOT DESIGNATED</SimpleData>
+		<SimpleData name="SLOPE_PCT">2</SimpleData>
+		<SimpleData name="PVMTCATEGORY">NONE</SimpleData>
+		<SimpleData name="PARKBOULEVARD">N</SimpleData>
+		<SimpleData name="SHAPE_Length">1120.93565979206</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.329939409961,47.6134815968056 -122.329793061374,47.6136158104917 -122.329729497768,47.6137061212868 -122.329529529994,47.6141382905202 -122.32931228414,47.614669922947 -122.329038593162,47.6152784972196 -122.328737336979,47.6160894675537 -122.328664323675,47.616220196989 -122.328509418825,47.6163785867307</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Seattle_Streets">
+		<SimpleData name="OBJECTID">23419</SimpleData>
+		<SimpleData name="ARTCLASS">5</SimpleData>
+		<SimpleData name="COMPKEY">491649</SimpleData>
+		<SimpleData name="UNITID">07696</SimpleData>
+		<SimpleData name="UNITID2">0140</SimpleData>
+		<SimpleData name="UNITIDSORT">076960140</SimpleData>
+		<SimpleData name="UNITDESC">MERCER ST I5 NB ON RP BETWEEN MERCER ST I5 EXPRESS RP AND I5 NB</SimpleData>
+		<SimpleData name="STNAME_ORD">MERCER ST I5 NB ON RP</SimpleData>
+		<SimpleData name="XSTRLO">MERCER ST I5 EXPRESS RP</SimpleData>
+		<SimpleData name="XSTRHI">I5 NB</SimpleData>
+		<SimpleData name="ARTDESCRIPT">Interstate/Freeway</SimpleData>
+		<SimpleData name="OWNER">WSDOT</SimpleData>
+		<SimpleData name="STATUS">INSVC</SimpleData>
+		<SimpleData name="BLOCKNBR">1400</SimpleData>
+		<SimpleData name="SPEEDLIMIT">30</SimpleData>
+		<SimpleData name="SEGDIR">NE</SimpleData>
+		<SimpleData name="ONEWAY">Y</SimpleData>
+		<SimpleData name="ONEWAYDIR">NE</SimpleData>
+		<SimpleData name="FLOW">F</SimpleData>
+		<SimpleData name="SEGLENGTH">1045</SimpleData>
+		<SimpleData name="SURFACEWIDTH">0</SimpleData>
+		<SimpleData name="INTRLO">MERCER ST I5 EXPRESS RP AND MERCER ST I5 NB ON RP</SimpleData>
+		<SimpleData name="DIRLO">NE</SimpleData>
+		<SimpleData name="INTKEYLO">491586</SimpleData>
+		<SimpleData name="INTRHI">I5 NB AND MERCER ST I5 NB ON RP</SimpleData>
+		<SimpleData name="DIRHI">SW</SimpleData>
+		<SimpleData name="NATIONHWYSYS">N</SimpleData>
+		<SimpleData name="PVMTCONDINDX1">0</SimpleData>
+		<SimpleData name="PVMTCONDINDX2">0</SimpleData>
+		<SimpleData name="TRANCLASS">0</SimpleData>
+		<SimpleData name="TRANDESCRIPT">NOT DESIGNATED</SimpleData>
+		<SimpleData name="SLOPE_PCT">2</SimpleData>
+		<SimpleData name="PVMTCATEGORY">NONE</SimpleData>
+		<SimpleData name="PARKBOULEVARD">N</SimpleData>
+		<SimpleData name="SHAPE_Length">1045.31181244149</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-122.328379140172,47.6268805100486 -122.328181379793,47.6274631393001 -122.327962725281,47.627973637933 -122.327790927853,47.6282972491398 -122.327787674848,47.6283021379599 -122.327654561554,47.6285021308732 -122.327373865069,47.6289548971575 -122.326694024397,47.6294521118573</coordinates></LineString>
+  </Placemark>
+</Folder>
+</Document></kml>
